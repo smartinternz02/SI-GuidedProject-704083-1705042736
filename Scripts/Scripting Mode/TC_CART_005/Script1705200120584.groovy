@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+
+WebUI.setText(findTestObject('Object Repository/temp/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_field-keywords'),
+	'pillow')
+
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_nav-search-submit-button'))
+
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com  pillow/img_Ships to India_s-image'))
+
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com Tempur-Pedic Memory Foam Sy_0cc0b2/input_Shipping cost, delivery date, and ord_223673'))
+
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com Shopping Cart/a_Go to Cart'))
+
+WebUI.closeBrowser()

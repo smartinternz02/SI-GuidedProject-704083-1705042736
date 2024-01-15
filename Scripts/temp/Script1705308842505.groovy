@@ -21,24 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.click(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in'))
+WebUI.setText(findTestObject('Object Repository/temp/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_field-keywords'), 
+    'pillow')
 
-WebUI.click(findTestObject('TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account'))
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_nav-search-submit-button'))
 
-WebUI.setText(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName'), 'chetan')
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com  pillow/img_Ships to India_s-image'))
 
-WebUI.setText(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email'), 'websterw116@gmail.com')
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com Tempur-Pedic Memory Foam Sy_0cc0b2/input_Shipping cost, delivery date, and ord_223673'))
 
-WebUI.setEncryptedText(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_Password_password'), 'XlDD6hEp9tksKxA0fbP4Lw==')
-
-WebUI.setEncryptedText(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck'), 
-    'XlDD6hEp9tksKxA0fbP4Lw==')
-
-WebUI.click(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue'))
-
-WebUI.setText(findTestObject('TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code'), '5642')
-
-WebUI.click(findTestObject('TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input'))
+WebUI.click(findTestObject('Object Repository/temp/Page_Amazon.com Shopping Cart/a_Go to Cart'))
 
 WebUI.closeBrowser()
 

@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists'))
+
+WebUI.setText(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 'chetankumarpulipati4@gmail.com')
+
+WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
+
+WebUI.setEncryptedText(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Forgot your password_password'), 'lubJgWeNoDywD0cxuuK8nQ==')
+
+WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+
+WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com Shopping Cart/span_Qty2'))
+
+WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com Shopping Cart/a_5'))
+
+WebUI.closeBrowser()
+
