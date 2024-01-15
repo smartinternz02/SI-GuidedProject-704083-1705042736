@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    'search-alias=stripbooks-intl-ship', true)
+
+WebUI.setText(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+    'DA VINCI CODE')
+
+WebUI.click(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  DA VINCI CODE/select_All Departments        Arts  Crafts _135c92'), 
+    'search-alias=electronics-intl-ship', true)
+
+WebUI.setText(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_field-keywords'), 
+    'Mobile Phones')
+
+WebUI.click(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  DA VINCI CODE/input_Search Amazon_nav-search-submit-button'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  Mobile Phones/select_Electronics        All Departments  _28d51a'), 
+    'search-alias=kitchen-intl-ship', true)
+
+WebUI.setText(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  Mobile Phones/input_Search Amazon_field-keywords'), 
+    'washing machine')
+
+WebUI.click(findTestObject('Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com  Mobile Phones/input_Search Amazon_nav-search-submit-button'))
+
+WebUI.closeBrowser()
+
