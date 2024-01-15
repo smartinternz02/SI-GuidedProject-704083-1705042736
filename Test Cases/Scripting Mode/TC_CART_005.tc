@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the amazon application to add items to cart</description>
+   <name>TC_CART_005</name>
+   <tag>#CART_ITEMS</tag>
+   <comment></comment>
+   <testCaseGuid>54d937a0-f675-4762-838a-e877c0daad61</testCaseGuid>
+</TestCaseEntity>

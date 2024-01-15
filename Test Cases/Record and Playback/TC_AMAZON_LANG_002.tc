@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the amazon application to change language</description>
+   <name>TC_AMAZON_LANG_002</name>
+   <tag>#AMAZON_LANGUAGE</tag>
+   <comment></comment>
+   <testCaseGuid>7cc45698-7e43-40ca-968c-cc3f446583cc</testCaseGuid>
+</TestCaseEntity>

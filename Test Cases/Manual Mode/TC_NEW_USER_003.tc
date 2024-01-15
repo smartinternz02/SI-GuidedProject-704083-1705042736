@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the amazon application for registering as a new user</description>
+   <name>TC_NEW_USER_003</name>
+   <tag>#NEW_USER_REGISTRATION</tag>
+   <comment></comment>
+   <testCaseGuid>d16b9c43-1682-4316-91c9-c08844423105</testCaseGuid>
+</TestCaseEntity>

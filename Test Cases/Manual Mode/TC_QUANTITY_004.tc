@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate amazon application for quantity selection</description>
+   <name>TC_QUANTITY_004</name>
+   <tag>#QUANTITY_SELECTION</tag>
+   <comment></comment>
+   <testCaseGuid>6985c480-ac40-44d9-89be-daaeb483eb88</testCaseGuid>
+</TestCaseEntity>
