@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_English - EN</name>
+   <tag></tag>
+   <elementGuidId>dd3e0d1d-edd7-4f38-a351-644d360cf2b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-flyout-icp > div.nav-template.nav-flyout-content.nav-tpl-itemList > a.nav-link.nav-item > span.nav-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-flyout-icp']/div[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8ae205f1-845e-4913-95d4-6a6e2daab1a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-text</value>
+      <webElementGuid>790fb6ac-6ea1-42c9-9a23-4a943cde3bda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English - EN</value>
+      <webElementGuid>16cef8c4-530c-41fe-a7f0-b07282a8a2a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-flyout-icp&quot;)/div[@class=&quot;nav-template nav-flyout-content nav-tpl-itemList&quot;]/a[@class=&quot;nav-link                                    nav-item&quot;]/span[@class=&quot;nav-text&quot;]</value>
+      <webElementGuid>6a5d8a44-570d-4c60-b551-4ccb1efc5ff3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav-flyout-icp']/div[2]/a/span</value>
+      <webElementGuid>5e4820dc-39c9-4849-9965-343f23beff2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div[2]/a/span</value>
+      <webElementGuid>67ffc366-ca64-4c1a-a48a-283de8df8872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'English - EN' or . = 'English - EN')]</value>
+      <webElementGuid>5e4f4ed0-6039-4e4b-8f15-5f2327ee0928</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
