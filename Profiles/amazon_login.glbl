@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>amazon_search</name>
+   <name>amazon_login</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>category</name>
+      <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>item</name>
+      <name>password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

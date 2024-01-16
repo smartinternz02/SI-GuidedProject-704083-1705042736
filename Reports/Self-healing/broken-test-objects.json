@@ -9,6 +9,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email_position.png"
     }
   ]
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_LOGIN_006</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>606f2142-ac1d-4bae-afca-d78b85f8be98</testSuiteGuid>
+   <testCaseLink>
+      <guid>fd9d5bda-5c72-4664-88de-bbd5c5fdc32a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven Testing/TC_LOGIN_006</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4025e6e6-3b68-4def-952b-76ab6dfd00a5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datadriven/login_credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac52a8e6-8361-442a-8947-21bf098ef997</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85c4bfc9-532c-44fb-9477-a66e9c86576a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
