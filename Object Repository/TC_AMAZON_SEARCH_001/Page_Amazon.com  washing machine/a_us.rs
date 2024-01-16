@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Search Amazon_nav-search-submit-button</name>
+   <name>a_us</name>
    <tag></tag>
-   <elementGuidId>b1927c8f-3bce-4401-ab6d-fd9d33d62ca6</elementGuidId>
+   <elementGuidId>51471431-ae01-4402-90a0-9c4f63ec3462</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#nav-search-submit-button</value>
+         <value>#nav-logo-sprites</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='nav-search-submit-button']</value>
+         <value>//a[@id='nav-logo-sprites']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,107 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>1dee169e-f0fc-41ef-a176-ce03c4726727</webElementGuid>
+      <value>a</value>
+      <webElementGuid>d0361ba6-1566-4fa3-be95-1c83b9642854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/ref=nav_logo</value>
+      <webElementGuid>59154d1e-8ccf-43a2-8872-1f80cf0d3ce8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>nav-search-submit-button</value>
-      <webElementGuid>29a2621d-c771-4f90-bda8-6d83be0013d1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>614389e3-adf7-4936-8896-de3dd2de817e</webElementGuid>
+      <value>nav-logo-sprites</value>
+      <webElementGuid>a43c30e0-aa64-48f0-b08b-219c57577e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-input nav-progressive-attribute</value>
-      <webElementGuid>d7a490bb-6e41-4a3d-8d0a-d17cf557b7f3</webElementGuid>
+      <value>nav-logo-link nav-progressive-attribute</value>
+      <webElementGuid>ef96270d-99e7-4a6e-8179-9f6c5c89bdda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>Go</value>
-      <webElementGuid>3cab1d74-6ca4-40fa-b29a-1ded242b7da0</webElementGuid>
+      <value>Amazon</value>
+      <webElementGuid>d37c30d9-5a50-446a-9049-5bd1e07764c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>text</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>dd2fa670-d9f7-4f1c-b8f0-dd3faaf3307e</webElementGuid>
+      <value>
+      
+      
+      .us
+    </value>
+      <webElementGuid>bfcf2af1-0f77-4407-a003-15da8dd963fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-search-submit-button&quot;)</value>
-      <webElementGuid>6dc68ebb-2aa5-4ec2-8b0e-1b2681de21a9</webElementGuid>
+      <value>id(&quot;nav-logo-sprites&quot;)</value>
+      <webElementGuid>a26946d3-403f-4900-9c71-081763d85069</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='nav-search-submit-button']</value>
-      <webElementGuid>1ea7e53d-690f-41fd-9127-06a4bdb7239e</webElementGuid>
+      <value>//a[@id='nav-logo-sprites']</value>
+      <webElementGuid>98b66a44-a54e-45dc-96a6-232abc97a537</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='nav-search-submit-text']/input</value>
-      <webElementGuid>c7c0624c-c98a-44a7-bda9-575d549ad1b7</webElementGuid>
+      <value>//div[@id='nav-logo']/a</value>
+      <webElementGuid>271c00e1-e678-4fe2-8478-bc6c417fdc52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/ref=nav_logo')]</value>
+      <webElementGuid>72123173-5534-474a-86a5-bf807cc5b87b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>eab13902-42f6-414f-8850-eb90df71f295</webElementGuid>
+      <value>//div/div/div/div/a</value>
+      <webElementGuid>18bbba61-3aae-451e-b144-1aeba5bf1755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'nav-search-submit-button' and @type = 'submit']</value>
-      <webElementGuid>ac79a24d-2653-4686-8b94-116acd283e4e</webElementGuid>
+      <value>//a[@href = '/ref=nav_logo' and @id = 'nav-logo-sprites' and (text() = '
+      
+      
+      .us
+    ' or . = '
+      
+      
+      .us
+    ')]</value>
+      <webElementGuid>19b8ce57-5ce7-455d-9377-715a7d61248d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
