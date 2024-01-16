@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_LOGIN_006,Chrome 120.0.0.0,,,16-01-2024 18:17:48,16-01-2024 18:19:14,1m - 25.782s,PASSED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_LOGIN_006,Chrome 120.0.0.0,,,16-01-2024 18:17:48,16-01-2024 18:19:14,1m - 25.522s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 18:17:49,16-01-2024 18:17:51,2.454s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,16-01-2024 18:17:51,16-01-2024 18:17:56,4.706s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,16-01-2024 18:17:56,16-01-2024 18:18:07,11.085s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), email)",Chrome 120.0.0.0,,,16-01-2024 18:18:07,16-01-2024 18:18:08,1.313s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 120.0.0.0,,,16-01-2024 18:18:08,16-01-2024 18:18:09,0.488s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), password)",Chrome 120.0.0.0,,,16-01-2024 18:18:09,16-01-2024 18:18:41,32.446s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,16-01-2024 18:18:41,16-01-2024 18:19:13,32.162s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 18:19:13,16-01-2024 18:19:14,0.382s,PASSED

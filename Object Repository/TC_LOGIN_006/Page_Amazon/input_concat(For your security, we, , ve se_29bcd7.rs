@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Enter your password_signInSubmit</name>
+   <name>input_concat(For your security, we, , ve se_29bcd7</name>
    <tag></tag>
-   <elementGuidId>c4651d91-5544-468d-bdfa-56943d9ecb78</elementGuidId>
+   <elementGuidId>43cf756c-bc4e-401b-9a35-3f3a7940cee9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='signInSubmit']</value>
+         <value>//input[@id='input-box-otp']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#signInSubmit</value>
+         <value>#input-box-otp</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c9ff7575-a98d-4962-bde1-cadcb5fd8634</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>signInSubmit</value>
-      <webElementGuid>783e1e6c-fd5c-4146-a437-d0a2ab4355d0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>3</value>
-      <webElementGuid>46969548-4bd2-4268-a55a-6f2cde5013b3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>a-button-input</value>
-      <webElementGuid>58c49501-d849-47fd-929f-877a2db0059d</webElementGuid>
+      <webElementGuid>a6fd27fc-f0b8-4d91-9a08-894c7c819824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>2ea4ea8c-2fe7-4a38-8c97-e977254b43fa</webElementGuid>
+      <value>tel</value>
+      <webElementGuid>bb5e88ba-164f-44bd-820e-912f4e1ad6ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>auth-signin-button-announce</value>
-      <webElementGuid>892ff180-ba21-4eca-be4e-493aea4f1a5d</webElementGuid>
+      <value>6</value>
+      <webElementGuid>660481d0-38d7-4f6e-8bed-cdbef74210d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>input-box-otp</value>
+      <webElementGuid>a5852fa2-b162-4123-b2a6-ebfabd20e4cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>0d66c741-b6e7-4d89-9ace-8b9d24163d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>2a364855-3c6a-4d77-a0e0-167f11273151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-input-text cvf-widget-input cvf-widget-input-code single-input-box-otp</value>
+      <webElementGuid>d5a85b8f-5b07-4b25-b32b-aebb7081f53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;signInSubmit&quot;)</value>
-      <webElementGuid>54672561-81cb-4b5f-8899-d170b427fb5b</webElementGuid>
+      <value>id(&quot;input-box-otp&quot;)</value>
+      <webElementGuid>95eb207e-13bc-451c-8000-108dd4a0fc74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='signInSubmit']</value>
-      <webElementGuid>853958a5-2b51-4fa2-8421-59fe9dafafda</webElementGuid>
+      <value>//input[@id='input-box-otp']</value>
+      <webElementGuid>b2af59c8-07da-4549-a00b-59e73e6d5115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='auth-signin-button']/span/input</value>
-      <webElementGuid>b2cea79d-08c2-4f9e-97b5-223c5fc74318</webElementGuid>
+      <value>//div[@id='cvf-input-code']/span/div/input</value>
+      <webElementGuid>5eeaa418-3d11-4a99-aecb-7a4f4e00b233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>3d84fbea-8202-44f5-a1d5-d91fe26131e4</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>382a4c3e-1ff3-4a9a-a337-1695b0497d5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'signInSubmit' and @type = 'submit']</value>
-      <webElementGuid>af69eb6a-5575-487e-af3c-ce78389a74b4</webElementGuid>
+      <value>//input[@type = 'tel' and @id = 'input-box-otp']</value>
+      <webElementGuid>a68f36f4-776c-4e72-8128-fe2004e9b8f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

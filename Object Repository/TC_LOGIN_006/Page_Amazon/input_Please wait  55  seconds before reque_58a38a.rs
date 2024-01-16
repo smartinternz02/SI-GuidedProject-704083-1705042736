@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Enter your password_signInSubmit</name>
+   <name>input_Please wait  55  seconds before reque_58a38a</name>
    <tag></tag>
-   <elementGuidId>c4651d91-5544-468d-bdfa-56943d9ecb78</elementGuidId>
+   <elementGuidId>262e5a63-5950-41f7-815d-ee3453424c3b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='signInSubmit']</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#signInSubmit</value>
+         <value>#cvf-submit-otp-button > span.a-button-inner > input.a-button-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c9ff7575-a98d-4962-bde1-cadcb5fd8634</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>signInSubmit</value>
-      <webElementGuid>783e1e6c-fd5c-4146-a437-d0a2ab4355d0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>3</value>
-      <webElementGuid>46969548-4bd2-4268-a55a-6f2cde5013b3</webElementGuid>
+      <webElementGuid>490a201d-5157-4b5c-963c-7e27dc1f4115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button-input</value>
-      <webElementGuid>58c49501-d849-47fd-929f-877a2db0059d</webElementGuid>
+      <webElementGuid>00cffa83-08ad-4730-96fc-b29b92b4606c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,54 +38,54 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>2ea4ea8c-2fe7-4a38-8c97-e977254b43fa</webElementGuid>
+      <webElementGuid>2964d5c1-6030-4ee2-923e-bf83758b1ce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>auth-signin-button-announce</value>
-      <webElementGuid>892ff180-ba21-4eca-be4e-493aea4f1a5d</webElementGuid>
+      <value>cvf-submit-otp-button-announce</value>
+      <webElementGuid>05eb8343-40ab-40d2-82db-9f3305b5e998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;signInSubmit&quot;)</value>
-      <webElementGuid>54672561-81cb-4b5f-8899-d170b427fb5b</webElementGuid>
+      <value>id(&quot;cvf-submit-otp-button&quot;)/span[@class=&quot;a-button-inner&quot;]/input[@class=&quot;a-button-input&quot;]</value>
+      <webElementGuid>d40c8c06-520f-4bfb-bc95-5ffc8ec856b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='signInSubmit']</value>
-      <webElementGuid>853958a5-2b51-4fa2-8421-59fe9dafafda</webElementGuid>
+      <value>(//input[@type='submit'])[2]</value>
+      <webElementGuid>4cc69929-b48e-4edb-a122-387237c45e4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='auth-signin-button']/span/input</value>
-      <webElementGuid>b2cea79d-08c2-4f9e-97b5-223c5fc74318</webElementGuid>
+      <value>//span[@id='cvf-submit-otp-button']/span/input</value>
+      <webElementGuid>90660161-23d0-42cf-bf7b-5246e076fbe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>3d84fbea-8202-44f5-a1d5-d91fe26131e4</webElementGuid>
+      <value>//div[7]/span/span/input</value>
+      <webElementGuid>6348d2fd-d534-406c-a6f5-c349ea572be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'signInSubmit' and @type = 'submit']</value>
-      <webElementGuid>af69eb6a-5575-487e-af3c-ce78389a74b4</webElementGuid>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>eb0e26e6-964e-4564-a61e-95b15e95b5ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

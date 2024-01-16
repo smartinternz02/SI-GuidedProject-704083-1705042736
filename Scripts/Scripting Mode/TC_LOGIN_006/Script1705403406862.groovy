@@ -29,30 +29,29 @@ WebUI.setText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password'), 
-    'aeHFOx8jV/A=')
+    'zWBjhi+vD9h9XMIcPLPL/A==')
 
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
-WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon.com. Spend less. Smile more/span_Sign in'))
-
 WebUI.setText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
-    'johnaaa@gmail.com')
+    'johnaaa@yahoo.com')
 
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password'), 
-    'Jsq4kLJIBwk=')
+    'zWBjhi+vD9h9XMIcPLPL/A==')
 
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
-
-WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon.com. Spend less. Smile more/span_Sign in'))
 
 WebUI.setText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
     'hello@pin.com')
 
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
-WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/div_Please Enable Cookies to Continue      _e96b92'))
+WebUI.setEncryptedText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password'), 
+    'zWBjhi+vD9h9XMIcPLPL/A==')
+
+WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
 WebUI.setText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
     'chetankumarpulipati4@gmail.com')
@@ -63,7 +62,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazo
     'zWBjhi+vD9h9XMIcPLPL/A==')
 
 WebUI.click(findTestObject('Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
-
 
 WebUI.closeBrowser()
 

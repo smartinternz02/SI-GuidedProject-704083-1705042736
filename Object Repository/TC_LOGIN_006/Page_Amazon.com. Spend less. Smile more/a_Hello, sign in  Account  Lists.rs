@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Hello, sign in  Account  Lists</name>
    <tag></tag>
-   <elementGuidId>18309fcd-a0fe-4fcf-8c27-55ab938b1120</elementGuidId>
+   <elementGuidId>c33eb62e-5b22-4d4b-b320-0720d3f36045</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9e91b324-c044-4bde-9c61-8eebff452e40</webElementGuid>
+      <webElementGuid>5e92707e-e2a3-4741-9e8c-c0c556f0e08c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=usflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0</value>
-      <webElementGuid>b146e6a4-ff17-42f8-b882-5dd457fa7da0</webElementGuid>
+      <webElementGuid>f9ee393a-6840-4da2-a25a-5d17aeadf89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-a nav-a-2   nav-progressive-attribute nav-active</value>
-      <webElementGuid>c8e67a75-cbad-40d8-81da-13e9976ac390</webElementGuid>
+      <webElementGuid>4c53ac37-a48e-4204-9ea4-08d65da577ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-nav-ref</name>
       <type>Main</type>
       <value>nav_ya_signin</value>
-      <webElementGuid>53aefbff-daf8-4eac-aa2c-e05fcc1c7b22</webElementGuid>
+      <webElementGuid>31b9d47f-5d5f-4e2a-8ac9-639dc81c73fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-nav-role</name>
       <type>Main</type>
       <value>signin</value>
-      <webElementGuid>845f7a27-1f10-4dc4-954d-7d03786e614c</webElementGuid>
+      <webElementGuid>f46c0ba3-0836-4113-808f-29b38e43f0e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ux-jq-mouseenter</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>31582b0e-cb41-4768-bae4-9e34cddb376e</webElementGuid>
+      <webElementGuid>bddaa2bb-f534-46b7-986d-07dfd65313c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nav-link-accountList</value>
-      <webElementGuid>6b75f419-ceca-4f0c-a7d2-b70554190c2e</webElementGuid>
+      <webElementGuid>ec35e4a4-c4c9-4280-bf29-356cc06eb5e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e14eb04b-60f5-43fa-913c-8428064c8614</webElementGuid>
+      <webElementGuid>532d6e49-b296-4a2f-abab-397a28eff3a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>data-csa-c-type</name>
       <type>Main</type>
       <value>link</value>
-      <webElementGuid>7bda2598-5b5b-490e-84d4-d2bd0a66f611</webElementGuid>
+      <webElementGuid>7a7d0f69-53f4-4a4e-b7ee-e3a3f79fd7ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
       <value>nav-link-accountList</value>
-      <webElementGuid>8500d84b-ced1-49f9-995e-fa675779e036</webElementGuid>
+      <webElementGuid>64011669-9747-4515-b3b5-042f4978bd4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>data-csa-c-content-id</name>
       <type>Main</type>
       <value>nav_ya_signin</value>
-      <webElementGuid>9e8eebe4-5e72-4083-b835-c22e0817b23c</webElementGuid>
+      <webElementGuid>82bd5c4d-5dfb-4e0b-8d85-e7f645788728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>4m42ot-asv1id-at1fkz-kp5obw</value>
-      <webElementGuid>8904636d-2745-41f4-bf38-84feff486739</webElementGuid>
+      <value>nmncn2-h896o5-thfsp0-kvzem9</value>
+      <webElementGuid>e0702d60-5c6c-471e-9cdb-ef3fb0fd28ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -122,7 +122,7 @@
   Account &amp; Lists
   
 </value>
-      <webElementGuid>ac2acdb8-36a5-4b2c-9fe8-ca0cef06c86c</webElementGuid>
+      <webElementGuid>da5d3ba8-7a4a-4c4e-8bdc-994b583b3e35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-link-accountList&quot;)</value>
-      <webElementGuid>709b786a-2fc9-4ef0-b0e7-c9bd89b7311b</webElementGuid>
+      <webElementGuid>a2645554-e3f9-4094-a534-aee44f039dd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='nav-link-accountList']</value>
-      <webElementGuid>28ae4fa5-da18-4f55-acf0-e0455b6ba594</webElementGuid>
+      <webElementGuid>bd789271-da40-4800-8340-76a3221247e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='nav-tools']/a[2]</value>
-      <webElementGuid>62855270-7032-4160-9500-8c1db4da2c7e</webElementGuid>
+      <webElementGuid>eb7371f3-628e-4964-8c99-cbd05aa236fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=usflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0')]</value>
-      <webElementGuid>96da7a2e-4870-43cf-bade-94a8fb50395b</webElementGuid>
+      <webElementGuid>2c3fb555-b7f8-471a-8046-1501bc083f14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a[2]</value>
-      <webElementGuid>4435a015-eee8-43a5-9fc9-34ede2b35332</webElementGuid>
+      <webElementGuid>13882422-5cf7-48eb-be5c-b538a0a609eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,6 +178,6 @@
   Account &amp; Lists
   
 ')]</value>
-      <webElementGuid>b6ab3718-07e8-4268-adc0-88a274f2abac</webElementGuid>
+      <webElementGuid>c6149749-c7e8-4620-a330-491b91bd42d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

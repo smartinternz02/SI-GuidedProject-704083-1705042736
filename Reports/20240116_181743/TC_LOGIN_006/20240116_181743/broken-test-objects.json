@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240116_181743/TC_LOGIN_006/20240116_181743/Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240116_181743/TC_LOGIN_006/20240116_181743/Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit_position.png"
+    }
+  ]
+}
