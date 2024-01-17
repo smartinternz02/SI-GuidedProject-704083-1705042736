@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_QUANTITY_004,Chrome 120.0.0.0,,,17-01-2024 15:55:03,17-01-2024 15:58:27,3m - 23.615s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_QUANTITY_004,Chrome 120.0.0.0,,,17-01-2024 15:55:11,17-01-2024 15:58:27,3m - 15.949s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 15:55:11,17-01-2024 15:56:13,1m - 1.853s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 15:56:13,17-01-2024 15:56:14,1.241s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""PENDRIVE"")",Chrome 120.0.0.0,,,17-01-2024 15:56:14,17-01-2024 15:56:16,2.131s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,17-01-2024 15:56:16,17-01-2024 15:56:24,7.287s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6""))",Chrome 120.0.0.0,,,17-01-2024 15:56:24,17-01-2024 15:56:30,6.270s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY""), ""2"", true)",Chrome 120.0.0.0,,,17-01-2024 15:56:30,17-01-2024 15:56:32,1.644s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 15:56:32,17-01-2024 15:57:13,41.118s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 15:57:13,17-01-2024 15:58:27,1m - 14.241s,FAILED
