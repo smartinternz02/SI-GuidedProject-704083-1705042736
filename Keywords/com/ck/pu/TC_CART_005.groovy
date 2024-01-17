@@ -20,10 +20,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class amazon_case {
+public class TC_CART_005 {
+	
+@Keyword
+def cart() {
+	WebUI.openBrowser('')
 
-	@Keyword
-	def printHello() {
-		
-	}
+	WebUI.navigateToUrl('https://www.amazon.com/')
+
+	WebUI.setText(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'),
+	'SALT FOR ICE AND SNOW')
+
+	WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+
+	WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a'))
+
+	WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673'))
+
+	WebUI.closeBrowser()
+}
 }

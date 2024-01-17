@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "53C9AA890446A5A921BCD08BD27DAD6F",
+  "keywordClasses": [
+    {
+      "name": "com.ck.pu.TC_CART_005",
+      "keywordMethods": [
+        {
+          "name": "cart",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

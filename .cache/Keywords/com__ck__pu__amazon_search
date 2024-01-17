@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "3170749103DE97C47FD19A8D48E067F6",
+  "keywordClasses": [
+    {
+      "name": "com.ck.pu.amazon_search",
+      "keywordMethods": [
+        {
+          "name": "TestCase_001",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

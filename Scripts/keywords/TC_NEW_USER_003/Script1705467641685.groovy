@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.ck.pu.amazon_case.printHello'()
+CustomKeywords.'com.ck.pu.TC_NEW_USER_003.new_user'()
 

@@ -31,4 +31,3 @@ WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com  SALT 
 WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673'))
 
 WebUI.closeBrowser()
-

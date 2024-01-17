@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_1        2        3        4        5</name>
+   <name>select_QTY</name>
    <tag></tag>
    <elementGuidId>9e474479-c9c4-447a-bfad-c35eb1353537</elementGuidId>
    <selectorCollection>

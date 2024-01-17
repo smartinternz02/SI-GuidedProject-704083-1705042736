@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keywords,Chrome 120.0.0.0,,,17-01-2024 11:33:26,17-01-2024 11:35:58,2m - 31.950s,PASSED
+,,,,,,,
+Test Cases/keywords/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,17-01-2024 11:33:27,17-01-2024 11:34:27,1m - 0.919s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 11:33:27,17-01-2024 11:33:27,0.044s,PASSED
+com.ck.pu.TC_AMAZON_SEARCH_001.TestCase_001(),Chrome 120.0.0.0,,,17-01-2024 11:33:27,17-01-2024 11:34:27,1m - 0.542s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 11:34:27,17-01-2024 11:34:27,0.006s,PASSED
+,,,,,,,
+Test Cases/keywords/TC_CART_005,Chrome 120.0.0.0,,,17-01-2024 11:34:27,17-01-2024 11:35:02,34.104s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 11:34:28,17-01-2024 11:34:28,0.027s,PASSED
+com.ck.pu.TC_CART_005.cart(),Chrome 120.0.0.0,,,17-01-2024 11:34:28,17-01-2024 11:35:02,33.879s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 11:35:02,17-01-2024 11:35:02,0.004s,PASSED
+,,,,,,,
+Test Cases/keywords/TC_NEW_USER_003,Chrome 120.0.0.0,,,17-01-2024 11:35:02,17-01-2024 11:35:58,56.342s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 11:35:02,17-01-2024 11:35:02,0.006s,PASSED
+com.ck.pu.TC_NEW_USER_003.new_user(),Chrome 120.0.0.0,,,17-01-2024 11:35:02,17-01-2024 11:35:58,56.213s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 11:35:58,17-01-2024 11:35:58,0.006s,PASSED

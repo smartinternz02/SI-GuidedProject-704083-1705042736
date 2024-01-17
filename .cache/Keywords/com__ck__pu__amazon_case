@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "3E6740A80B116E2BAB81FA8007D48735",
+  "keywordFileContentHash": "C6954F37BD8946BF1EB44BCD82A87AD1",
   "keywordClasses": [
     {
       "name": "com.ck.pu.amazon_case",
       "keywordMethods": [
         {
-          "name": "printHello",
+          "name": "TestCase_001",
           "parameters": []
         }
       ]

@@ -17,25 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.com/')
-
-WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/input_field-keywords'), 'GPBJAG')
-
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/button_Continue shopping'))
-
-WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'PENDRIVE')
-
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
-
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'), 
-    '2', true)
-
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart'))
-
-WebUI.closeBrowser()
+CustomKeywords.'com.ck.pu.TC_CART_005.cart'()
 

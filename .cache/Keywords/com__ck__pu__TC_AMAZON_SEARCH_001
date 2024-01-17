@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0EC8BE353185E8DFFE8B848A17072B7E",
+  "keywordClasses": [
+    {
+      "name": "com.ck.pu.TC_AMAZON_SEARCH_001",
+      "keywordMethods": [
+        {
+          "name": "TestCase_001",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

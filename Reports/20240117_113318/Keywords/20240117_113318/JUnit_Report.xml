@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keywords" time="151.95" tests="3" failures="0" errors="0">
+   <testsuite name="Keywords" tests="3" failures="0" errors="0" time="151.95" skipped="0" timestamp="17-01-2024T11:33:26" hostname="DESKTOP COMPUTER - DESKTOP-KL6BTBD" id="Test Suites/Keywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_113318\\Keywords\\20240117_113318"/>
+         <property name="logFiles" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_113318\\Keywords\\20240117_113318\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP COMPUTER - DESKTOP-KL6BTBD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="0eb8b33d0ca5d8b72a255d08c396ac12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/keywords/TC_AMAZON_SEARCH_001" time="60.919" classname="Test Cases/keywords/TC_AMAZON_SEARCH_001" status="PASSED">
+         <system-out><![CDATA[17-01-2024T11:33:27 - [TEST_CASE][PASSED] - Test Cases/keywords/TC_AMAZON_SEARCH_001: Test Cases/keywords/TC_AMAZON_SEARCH_001
+
+17-01-2024T11:33:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+17-01-2024T11:33:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:33:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+17-01-2024T11:33:27 - [TEST_STEP][PASSED] - com.ck.pu.TC_AMAZON_SEARCH_001.TestCase_001(): com.ck.pu.TC_AMAZON_SEARCH_001.TestCase_001 is PASSED
+
+17-01-2024T11:33:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T11:33:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T11:33:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T11:33:38 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+17-01-2024T11:33:54 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+17-01-2024T11:33:55 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T11:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T11:34:01 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+17-01-2024T11:34:02 - [MESSAGE][PASSED] - Text 'mobile phones' is set on object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T11:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T11:34:13 - [MESSAGE][PASSED] - All options with value 'search-alias=kitchen-intl-ship' are selected in object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+17-01-2024T11:34:14 - [MESSAGE][PASSED] - Text 'washing machine' is set on object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T11:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T11:34:22 - [MESSAGE][PASSED] - All options with value 'search-alias=automotive-intl-ship' are selected in object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+17-01-2024T11:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords' is clicked on
+
+17-01-2024T11:34:23 - [MESSAGE][PASSED] - Text 'suv' is set on object 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T11:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T11:34:27 - [MESSAGE][PASSED] - Browser is closed
+
+17-01-2024T11:34:27 - [MESSAGE][PASSED] - com.ck.pu.TC_AMAZON_SEARCH_001.TestCase_001 is PASSED
+
+17-01-2024T11:34:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+17-01-2024T11:34:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:34:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/keywords/TC_CART_005" time="34.104" classname="Test Cases/keywords/TC_CART_005" status="PASSED">
+         <system-out><![CDATA[17-01-2024T11:34:27 - [TEST_CASE][PASSED] - Test Cases/keywords/TC_CART_005: Test Cases/keywords/TC_CART_005
+
+17-01-2024T11:34:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+17-01-2024T11:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+17-01-2024T11:34:28 - [TEST_STEP][PASSED] - com.ck.pu.TC_CART_005.cart(): com.ck.pu.TC_CART_005.cart is PASSED
+
+17-01-2024T11:34:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T11:34:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T11:34:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T11:34:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+17-01-2024T11:34:41 - [MESSAGE][PASSED] - Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T11:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T11:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' is clicked on
+
+17-01-2024T11:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+17-01-2024T11:35:02 - [MESSAGE][PASSED] - Browser is closed
+
+17-01-2024T11:35:02 - [MESSAGE][PASSED] - com.ck.pu.TC_CART_005.cart is PASSED
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/keywords/TC_NEW_USER_003" time="56.342" classname="Test Cases/keywords/TC_NEW_USER_003" status="PASSED">
+         <system-out><![CDATA[17-01-2024T11:35:02 - [TEST_CASE][PASSED] - Test Cases/keywords/TC_NEW_USER_003: Test Cases/keywords/TC_NEW_USER_003
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+17-01-2024T11:35:02 - [TEST_STEP][PASSED] - com.ck.pu.TC_NEW_USER_003.new_user(): com.ck.pu.TC_NEW_USER_003.new_user is PASSED
+
+17-01-2024T11:35:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T11:35:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T11:35:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T11:35:07 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+17-01-2024T11:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in' is clicked on
+
+17-01-2024T11:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+17-01-2024T11:35:18 - [MESSAGE][PASSED] - Text 'chetan' is set on object 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName'
+
+17-01-2024T11:35:19 - [MESSAGE][PASSED] - Text 'websterw116@gmail.com' is set on object 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email'
+
+17-01-2024T11:35:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Password_password'
+
+17-01-2024T11:35:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck'
+
+17-01-2024T11:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue' is clicked on
+
+17-01-2024T11:35:57 - [MESSAGE][PASSED] - Text '5642' is set on object 'Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code'
+
+17-01-2024T11:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input' is clicked on
+
+17-01-2024T11:35:58 - [MESSAGE][PASSED] - Browser is closed
+
+17-01-2024T11:35:58 - [MESSAGE][PASSED] - com.ck.pu.TC_NEW_USER_003.new_user is PASSED
+
+17-01-2024T11:35:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+17-01-2024T11:35:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T11:35:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T11:33:26 - [TEST_SUITE][PASSED] - Keywords: Test Cases/keywords/TC_NEW_USER_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
