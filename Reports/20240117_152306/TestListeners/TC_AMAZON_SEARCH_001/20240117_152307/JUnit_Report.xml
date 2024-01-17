@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_AMAZON_SEARCH_001" time="73.609" tests="1" failures="0" errors="0">
+   <testsuite name="TC_AMAZON_SEARCH_001" tests="1" failures="0" errors="0" time="73.609" skipped="0" timestamp="17-01-2024T15:23:13" hostname="DESKTOP COMPUTER - DESKTOP-KL6BTBD" id="Test Suites/TestListeners/TC_AMAZON_SEARCH_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_152306\\TestListeners\\TC_AMAZON_SEARCH_001\\20240117_152307"/>
+         <property name="logFiles" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_152306\\TestListeners\\TC_AMAZON_SEARCH_001\\20240117_152307\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP COMPUTER - DESKTOP-KL6BTBD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="13c9c3f0c47eb77a03378d3cc24c5089"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestListeners/TC_AMAZON_SEARCH_001" time="65.29" classname="Test Cases/TestListeners/TC_AMAZON_SEARCH_001" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:23:22 - [TEST_CASE][PASSED] - Test Cases/TestListeners/TC_AMAZON_SEARCH_001: Test Cases/TestListeners/TC_AMAZON_SEARCH_001
+
+17-01-2024T15:23:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T15:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "SALT FOR ICE AND SNOW"): Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T15:23:35 - [MESSAGE][PASSED] - Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T15:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T15:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T15:23:43 - [TEST_STEP][PASSED] - return null: null
+
+17-01-2024T15:23:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+17-01-2024T15:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' is clicked on
+
+17-01-2024T15:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' is clicked on
+
+17-01-2024T15:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+17-01-2024T15:24:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='add-to-cart-button']'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:24:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673'. Try using Self-healing.
+
+17-01-2024T15:24:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' was broken. Propose an alternative one: '//span/span/input'.
+
+17-01-2024T15:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T15:23:13 - [TEST_SUITE][PASSED] - TC_AMAZON_SEARCH_001: Test Cases/TestListeners/TC_AMAZON_SEARCH_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

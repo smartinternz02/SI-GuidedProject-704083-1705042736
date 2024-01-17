@@ -119,6 +119,86 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon/inputinput-box-otp",
+      "brokenLocator": "//input[@id\u003d\u0027input-box-otp\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon/input_a-button-input",
+      "brokenLocator": "(//input[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon/input_a-button-input_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputcontinue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputcontinue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com/input_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027captchacharacters\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com/button_Continue shopping",
+      "brokenLocator": "//button[@type\u003d\u0027submit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

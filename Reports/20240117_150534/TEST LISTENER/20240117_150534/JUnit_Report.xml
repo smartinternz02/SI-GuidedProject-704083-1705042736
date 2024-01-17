@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST LISTENER" time="34.602" tests="1" failures="0" errors="0">
+   <testsuite name="TEST LISTENER" tests="1" failures="0" errors="0" time="34.602" skipped="0" timestamp="17-01-2024T15:05:40" hostname="DESKTOP COMPUTER - DESKTOP-KL6BTBD" id="Test Suites/TEST LISTENER">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_150534\\TEST LISTENER\\20240117_150534"/>
+         <property name="logFiles" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_150534\\TEST LISTENER\\20240117_150534\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP COMPUTER - DESKTOP-KL6BTBD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="d26b24ddcef42bff7aaef15111f69ed9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestListeners/TC_AMAZON_LOGIN_007" time="11.477" classname="Test Cases/TestListeners/TC_AMAZON_LOGIN_007" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:06:04 - [TEST_CASE][PASSED] - Test Cases/TestListeners/TC_AMAZON_LOGIN_007: Test Cases/TestListeners/TC_AMAZON_LOGIN_007
+
+17-01-2024T15:06:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+17-01-2024T15:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_email"), "chetankumarpulipati4@gmail.com"): Text 'chetankumarpulipati4@gmail.com' is set on object 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_email'
+
+17-01-2024T15:06:05 - [MESSAGE][PASSED] - Text 'chetankumarpulipati4@gmail.com' is set on object 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_email'
+
+17-01-2024T15:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+17-01-2024T15:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+17-01-2024T15:06:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_password"), "zWBjhi+vD9h9XMIcPLPL/A=="): Text ****** has been set on object 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_password'
+
+17-01-2024T15:06:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/input_password'
+
+17-01-2024T15:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+17-01-2024T15:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+17-01-2024T15:06:10 - [TEST_STEP][PASSED] - return null: null
+
+17-01-2024T15:06:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon.com. Spend less. Smile more/a_Hello, Chetan  Account  Lists' is clicked on
+
+17-01-2024T15:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon.com. Spend less. Smile more/a_Hello, Chetan  Account  Lists")): Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon.com. Spend less. Smile more/a_Hello, Chetan  Account  Lists' is clicked on
+
+17-01-2024T15:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TestListener/AMAZON_LOGIN/Page_Amazon.com. Spend less. Smile more/a_Hello, Chetan  Account  Lists' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T15:05:40 - [TEST_SUITE][PASSED] - TEST LISTENER: Test Cases/TestListeners/TC_AMAZON_LOGIN_007]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

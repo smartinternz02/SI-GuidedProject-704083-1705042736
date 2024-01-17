@@ -22,22 +22,23 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class TC_AMAZON_SEARCH_001 {
-	/**
-	 * Executes before every test case starts.
-	 * @param testCaseContext related information of the executed test case.
-	 */
+class TC_QUANTITY_004 {
 	@BeforeTestCase
 	def sampleBeforeTestCase() {
-		WebUI.setText(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'),
-			'SALT FOR ICE AND SNOW')
-		WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+	
+		WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'),
+			'PENDRIVE')
 	}
 
 	
 	@AfterTestCase
 	def sampleAfterTestCase() {
-		WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a'))
-		WebUI.click(findTestObject('Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673'))
+		
+		WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+		
+		WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'))
+		
+		WebUI.selectOptionByValue(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'),
+			'2', true)
 	}
 }
