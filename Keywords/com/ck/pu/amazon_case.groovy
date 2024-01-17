@@ -24,6 +24,6 @@ public class amazon_case {
 
 	@Keyword
 	def printHello() {
-		println("\n .....................Hello, World...............................")
+		
 	}
 }

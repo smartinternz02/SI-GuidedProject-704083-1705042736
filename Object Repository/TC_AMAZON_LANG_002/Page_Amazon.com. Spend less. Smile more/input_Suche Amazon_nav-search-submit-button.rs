@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4172073f-6c3a-4dc2-99cd-d47e356d1e2d</webElementGuid>
+      <webElementGuid>f65c113f-3897-48b3-b618-bb743ee653b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nav-search-submit-button</value>
-      <webElementGuid>e59ecfd3-373b-4f19-b8f4-97cbf0e770ff</webElementGuid>
+      <webElementGuid>7aa05140-234f-4789-9142-8f3794438b45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>b90fea54-6c93-42cf-ae08-bf5992c7695e</webElementGuid>
+      <webElementGuid>ddb376c3-3914-45f4-895b-3d5890c9acae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-input nav-progressive-attribute</value>
-      <webElementGuid>b06694e5-8373-4c80-847f-c63832c74d11</webElementGuid>
+      <webElementGuid>95f31dd8-27f9-4e35-b71f-ce5933294ae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Los</value>
-      <webElementGuid>ceff9c99-ead9-4a84-83b7-f1895d265a56</webElementGuid>
+      <webElementGuid>47ba5aa2-6b9b-40ea-bf99-cff0809ae80a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>c48d96fa-320e-4c5e-a7db-c30180d66e1c</webElementGuid>
+      <webElementGuid>b99c9879-b574-4e4c-8a0d-94678ccae312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-search-submit-button&quot;)</value>
-      <webElementGuid>ad6661a4-d7d1-40b7-9e32-c64283362b85</webElementGuid>
+      <webElementGuid>50f48fbe-11c3-4b05-8ad4-7b5bfbc35afb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='nav-search-submit-button']</value>
-      <webElementGuid>fd0eaa4f-90ee-44a2-a75c-e6fe420cc8ca</webElementGuid>
+      <webElementGuid>7ecc902f-f798-4234-8597-2cfc3a177fd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='nav-search-submit-text']/input</value>
-      <webElementGuid>a4855399-1504-4077-b3f8-5470c81924e8</webElementGuid>
+      <webElementGuid>207ec6a8-e549-48d2-bde0-4fc381f9ab29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
-      <webElementGuid>ee214a09-1ba5-4f69-b008-9ad5870ea19b</webElementGuid>
+      <webElementGuid>09ce480a-645e-40e0-8b47-831ad4a04fa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'nav-search-submit-button' and @type = 'submit']</value>
-      <webElementGuid>70db26c2-4fb8-46ad-83a4-2ded5a16c852</webElementGuid>
+      <webElementGuid>7d008d1f-43d8-4217-8d74-67f76afdef87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

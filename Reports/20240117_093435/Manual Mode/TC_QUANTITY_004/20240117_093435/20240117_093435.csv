@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_QUANTITY_004,Chrome 120.0.0.0,,,17-01-2024 09:34:40,17-01-2024 09:35:49,1m - 8.900s,PASSED
+,,,,,,,
+Test Cases/Manual Mode/TC_QUANTITY_004,Chrome 120.0.0.0,Validate amazon application for quantity selection,#QUANTITY_SELECTION,17-01-2024 09:34:41,17-01-2024 09:35:49,1m - 8.552s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,17-01-2024 09:34:41,17-01-2024 09:34:41,0.031s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,17-01-2024 09:34:41,17-01-2024 09:34:43,2.117s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,17-01-2024 09:34:43,17-01-2024 09:34:47,4.333s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com/input_field-keywords""), ""GPBJAG"")",Chrome 120.0.0.0,,,17-01-2024 09:34:47,17-01-2024 09:34:48,0.794s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,17-01-2024 09:34:48,17-01-2024 09:34:49,0.596s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""PENDRIVE"")",Chrome 120.0.0.0,,,17-01-2024 09:34:49,17-01-2024 09:35:00,10.793s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,17-01-2024 09:35:00,17-01-2024 09:35:08,8.248s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6""))",Chrome 120.0.0.0,,,17-01-2024 09:35:08,17-01-2024 09:35:45,36.776s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_1        2        3        4        5""), ""2"", true)",Chrome 120.0.0.0,,,17-01-2024 09:35:45,17-01-2024 09:35:46,1.847s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart""))",Chrome 120.0.0.0,,,17-01-2024 09:35:46,17-01-2024 09:35:49,2.212s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,17-01-2024 09:35:49,17-01-2024 09:35:49,0.513s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,17-01-2024 09:35:49,17-01-2024 09:35:49,0.007s,PASSED

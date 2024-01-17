@@ -59,6 +59,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_India_a-button-input",
+      "brokenLocator": "(//input[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027submit\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_India_a-button-input_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com  pillow/input_Search Amazon_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027twotabsearchtextbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @id \u003d \u0027twotabsearchtextbox\u0027 and @name \u003d \u0027field-keywords\u0027 and @placeholder \u003d \u0027Search Amazon\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com  pillow/input_Search Amazon_field-keywords_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_Shipping cost, delivery date, and ord_223673",
+      "brokenLocator": "//input[@id\u003d\u0027add-to-cart-button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_Shipping cost, delivery date, and ord_223673_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_SAMSUNG Type-C USB Flash Drive, 256GB,_e0a245",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027SAMSUNG Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue\u0027 or . \u003d \u0027SAMSUNG Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_SAMSUNG Type-C USB Flash Drive, 256GB,_e0a245_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue\u0027 or . \u003d \u0027Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6_customAttributes.png"
     }
   ]
 }

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>24e90f85-d03b-433e-a339-2317b546335b</webElementGuid>
+      <webElementGuid>57ddf080-9c8d-46de-be54-ac50c0596317</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
         
     
 </value>
-      <webElementGuid>ab382c9e-df73-49b7-a91a-7a2a9f311716</webElementGuid>
+      <webElementGuid>e09a4f41-4d4a-43af-976d-6381252d8545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;icp-language-settings&quot;)/div[@class=&quot;a-row a-spacing-mini&quot;]/div[@class=&quot;a-radio a-radio-fancy&quot;]/label[1]</value>
-      <webElementGuid>3f3c388e-ae7f-4d5b-ad17-fcbeaf87c25f</webElementGuid>
+      <webElementGuid>192adb49-0397-4376-a004-e270b87f7ea6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='icp-language-settings']/div[8]/div/label</value>
-      <webElementGuid>10b7c157-c6dc-4e88-8209-33e1034ff645</webElementGuid>
+      <webElementGuid>f982d457-9802-4ebb-8cbc-c7473df11800</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/label</value>
-      <webElementGuid>07421fc5-6dec-48ca-8dbe-24cbde68ce2b</webElementGuid>
+      <webElementGuid>ae422742-bb67-412c-999e-4abc48672303</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
         
     
 ')]</value>
-      <webElementGuid>55b6eed0-784b-4462-b4d1-ae5cb25ef6d2</webElementGuid>
+      <webElementGuid>b4e93ced-ddc1-4535-a092-ba02f9c8dc97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a2318ee-aa85-4741-9ee0-f14085f9d0ee</webElementGuid>
+      <webElementGuid>4ddde502-fb60-46fd-b63f-346da09ae571</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button-input</value>
-      <webElementGuid>47aca013-3af2-4dcb-9b3b-91fca305731c</webElementGuid>
+      <webElementGuid>23d85637-b12e-4cf7-bfee-ebf74b1ec59f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>dfec7b36-9e11-414e-9ddd-ea82076874be</webElementGuid>
+      <webElementGuid>88ba07e0-02ac-4a83-9c3b-cf91fb195518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>icp-save-button-announce</value>
-      <webElementGuid>b975303e-b367-467f-901a-46df38b9687b</webElementGuid>
+      <webElementGuid>abbc34df-1a3d-462b-845c-b1501f047dfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;icp-save-button&quot;)/span[@class=&quot;a-button-inner&quot;]/input[@class=&quot;a-button-input&quot;]</value>
-      <webElementGuid>8328a33f-2ded-4d32-b90d-a23f661e8032</webElementGuid>
+      <webElementGuid>e1a92c58-2482-414c-93a9-276ef48bf994</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='submit'])[2]</value>
-      <webElementGuid>83de8629-4f60-47eb-a1c4-a47a024fc617</webElementGuid>
+      <webElementGuid>75ac30a8-d4ef-4631-b706-5396dc3a0903</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='icp-save-button']/span/input</value>
-      <webElementGuid>69fb44a5-c192-467e-963e-c588ecababb0</webElementGuid>
+      <webElementGuid>4e0d0648-0b94-4e52-948d-2c869d6a1a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/span/input</value>
-      <webElementGuid>b74ff2a1-233b-458d-b62e-8d079ab61ac5</webElementGuid>
+      <webElementGuid>0864aaf6-35ec-462f-9105-614baf850e82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>0b56413d-9367-4bb1-9042-ba390ae2501d</webElementGuid>
+      <webElementGuid>0bcf9900-c14c-41ea-935c-6c1499f0a6b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

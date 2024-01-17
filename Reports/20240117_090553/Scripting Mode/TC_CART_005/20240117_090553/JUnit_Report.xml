@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_CART_005" time="45.183" tests="1" failures="0" errors="0">
+   <testsuite name="TC_CART_005" tests="1" failures="0" errors="0" time="45.183" skipped="0" timestamp="17-01-2024T09:05:59" hostname="DESKTOP COMPUTER - DESKTOP-KL6BTBD" id="Test Suites/Scripting Mode/TC_CART_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_090553\\Scripting Mode\\TC_CART_005\\20240117_090553"/>
+         <property name="logFiles" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240117_090553\\Scripting Mode\\TC_CART_005\\20240117_090553\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP COMPUTER - DESKTOP-KL6BTBD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="c87fc8014223cc723b51dfc760756bff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Scripting Mode/TC_CART_005" time="44.807" classname="Test Cases/Scripting Mode/TC_CART_005" status="PASSED">
+         <system-out><![CDATA[17-01-2024T09:05:59 - [TEST_CASE][PASSED] - Test Cases/Scripting Mode/TC_CART_005: Test Cases/Scripting Mode/TC_CART_005
+
+17-01-2024T09:05:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+17-01-2024T09:05:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T09:05:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+17-01-2024T09:05:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T09:06:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T09:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T09:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T09:06:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+17-01-2024T09:06:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+17-01-2024T09:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "SALT FOR ICE AND SNOW"): Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T09:06:16 - [MESSAGE][PASSED] - Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+17-01-2024T09:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T09:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+17-01-2024T09:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' is clicked on
+
+17-01-2024T09:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' is clicked on
+
+17-01-2024T09:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+17-01-2024T09:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+17-01-2024T09:06:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-01-2024T09:06:44 - [MESSAGE][PASSED] - Browser is closed
+
+17-01-2024T09:06:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+17-01-2024T09:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+17-01-2024T09:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T09:05:59 - [TEST_SUITE][PASSED] - TC_CART_005: Test Cases/Scripting Mode/TC_CART_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

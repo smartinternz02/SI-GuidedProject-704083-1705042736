@@ -21,19 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists'))
+WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/input_field-keywords'), 'GPBJAG')
 
-WebUI.setText(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 'chetankumarpulipati4@gmail.com')
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/button_Continue shopping'))
 
-WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
+WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+    'PENDRIVE')
 
-WebUI.setEncryptedText(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Forgot your password_password'), 'lubJgWeNoDywD0cxuuK8nQ==')
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
-WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'))
 
-WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com Shopping Cart/span_Qty2'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_1        2        3        4        5'), 
+    '2', true)
 
-WebUI.click(findTestObject('TC_QUANTITY_004/Page_Amazon.com Shopping Cart/a_5'))
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart'))
 
 WebUI.closeBrowser()
 

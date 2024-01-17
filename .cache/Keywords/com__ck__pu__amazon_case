@@ -1,16 +1,15 @@
 {
-  "keywordFileContentHash": "EA16CD58C583F55BE785C64972CA306E",
+  "keywordFileContentHash": "3E6740A80B116E2BAB81FA8007D48735",
   "keywordClasses": [
     {
       "name": "com.ck.pu.amazon_case",
       "keywordMethods": [
         {
           "name": "printHello",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
