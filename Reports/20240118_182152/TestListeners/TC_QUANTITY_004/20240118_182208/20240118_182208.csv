@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_QUANTITY_004,Edge Chromium 120,,,18-01-2024 18:22:18,18-01-2024 18:26:15,3m - 57.184s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_QUANTITY_004,Edge Chromium 120,,,18-01-2024 18:22:44,18-01-2024 18:26:15,3m - 31.159s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,18-01-2024 18:22:44,18-01-2024 18:23:18,34.302s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,18-01-2024 18:23:18,18-01-2024 18:23:21,2.760s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""PENDRIVE"")",Edge Chromium 120,,,18-01-2024 18:23:21,18-01-2024 18:23:23,1.831s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 120,,,18-01-2024 18:23:23,18-01-2024 18:23:31,8.145s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6""))",Edge Chromium 120,,,18-01-2024 18:23:31,18-01-2024 18:24:14,43.497s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY""), ""2"", true)",Edge Chromium 120,,,18-01-2024 18:24:14,18-01-2024 18:24:18,3.313s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,18-01-2024 18:24:18,18-01-2024 18:24:58,40.139s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,18-01-2024 18:24:58,18-01-2024 18:26:15,1m - 16.880s,FAILED

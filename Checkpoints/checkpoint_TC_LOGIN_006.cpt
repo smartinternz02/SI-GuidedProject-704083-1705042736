@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>checkpoint_TC_LOGIN_006</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Datadriven/TC_LOGIN_006</source-url>
+   </source-info>
+   <taken-date>2024-01-19T08:42:48.23+05:30</taken-date>
+   <column-names>
+      <column-name>email</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "rama123@gmail.com",
+      "checked": true
+    },
+    {
+      "value": "123456",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "john@yahoo.com",
+      "checked": true
+    },
+    {
+      "value": "789563",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "hello@yahoo.com",
+      "checked": true
+    },
+    {
+      "value": "68492",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "chetankumarpulipati4@gmail.com",
+      "checked": true
+    },
+    {
+      "value": "789456",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

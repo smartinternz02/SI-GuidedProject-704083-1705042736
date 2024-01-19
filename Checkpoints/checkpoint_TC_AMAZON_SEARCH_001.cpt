@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>checkpoint_TC_AMAZON_SEARCH_001</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\ramam\Desktop\Carry\Software Automation Testing\TC_AMAZON_SEARCH.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2024-01-19T08:50:56.823+05:30</taken-date>
+   <column-names>
+      <column-name>category</column-name>
+      <column-name>item</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Books",
+      "checked": true
+    },
+    {
+      "value": "Da vinci code",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Electronics",
+      "checked": true
+    },
+    {
+      "value": "Mobile Phones",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Home \u0026 Kitchen",
+      "checked": true
+    },
+    {
+      "value": "Washing Machine",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Automotive",
+      "checked": true
+    },
+    {
+      "value": "bmw",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

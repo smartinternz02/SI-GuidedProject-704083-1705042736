@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>checkpoint_TC_NEW_USER_003</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Datadriven/TC_NEW_USER_003</source-url>
+   </source-info>
+   <taken-date>2024-01-19T08:43:14.326+05:30</taken-date>
+   <column-names>
+      <column-name>name</column-name>
+      <column-name>email</column-name>
+      <column-name>password</column-name>
+      <column-name>reenterpassword</column-name>
+      <column-name>otp</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "chetan",
+      "checked": true
+    },
+    {
+      "value": "websterw116@gmail.com",
+      "checked": true
+    },
+    {
+      "value": "Amazon@123",
+      "checked": true
+    },
+    {
+      "value": "Amazon@123",
+      "checked": false
+    },
+    {
+      "value": "5642",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

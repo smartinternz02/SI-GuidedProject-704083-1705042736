@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>user_registration</name>
+   <name>TC_LOGIN_006</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>369990d2-9791-452f-86f8-b11478e33675</dataFileGUID>
+   <dataFileGUID>e6a93194-5071-42f6-9f3b-9b614ea098cd</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>chetan websterw116%40gmail.com Amazon%40123 Amazon%40123 5642</data>
+   <data>rama123%40gmail.com 123456</data>
+   <data>john%40yahoo.com 789563</data>
+   <data>hello%40yahoo.com 68492</data>
+   <data>chetankumarpulipati4%40gmail.com 789456</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>name</name>
-      <size>1</size>
+      <name>email</name>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>email</name>
-      <size>1</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>2</columnIndex>
       <name>password</name>
-      <size>1</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>3</columnIndex>
-      <name>reenterpassword</name>
-      <size>1</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>4</columnIndex>
-      <name>otp</name>
-      <size>1</size>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

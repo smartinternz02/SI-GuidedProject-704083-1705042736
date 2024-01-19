@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkpoint_TC_AMAZON_SEARCH_001,,,,19-01-2024 08:58:01,19-01-2024 08:58:12,11.376s,PASSED
+,,,,,,,
+Test Cases/Checkpoints/checkpoint_TC_AMAZON_SEARCH_001,,,,19-01-2024 08:58:01,19-01-2024 08:58:12,11.053s,PASSED
+Start listener action : sampleBeforeTestCase,,,,19-01-2024 08:58:01,19-01-2024 08:58:04,2.657s,FAILED
+Start listener action : sampleBeforeTestCase,,,,19-01-2024 08:58:04,19-01-2024 08:58:09,4.782s,FAILED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/checkpoint_TC_AMAZON_SEARCH_001""), false)",,,,19-01-2024 08:58:09,19-01-2024 08:58:10,1.048s,PASSED
+Start listener action : sampleAfterTestCase,,,,19-01-2024 08:58:10,19-01-2024 08:58:10,0.361s,FAILED
+Start listener action : sampleAfterTestCase,,,,19-01-2024 08:58:10,19-01-2024 08:58:12,2.043s,FAILED

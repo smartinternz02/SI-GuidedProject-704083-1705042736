@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkpoint_TC_NEW_USER_003,,,,19-01-2024 08:58:14,19-01-2024 08:58:18,3.215s,PASSED
+,,,,,,,
+Test Cases/Checkpoints/checkpoint_TC_NEW_USER_003,,,,19-01-2024 08:58:15,19-01-2024 08:58:18,2.608s,PASSED
+Start listener action : sampleBeforeTestCase,,,,19-01-2024 08:58:15,19-01-2024 08:58:16,1.218s,FAILED
+Start listener action : sampleBeforeTestCase,,,,19-01-2024 08:58:16,19-01-2024 08:58:16,0.107s,FAILED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/checkpoint_TC_NEW_USER_003""), false)",,,,19-01-2024 08:58:17,19-01-2024 08:58:17,0.120s,PASSED
+Start listener action : sampleAfterTestCase,,,,19-01-2024 08:58:17,19-01-2024 08:58:17,0.202s,FAILED
+Start listener action : sampleAfterTestCase,,,,19-01-2024 08:58:17,19-01-2024 08:58:18,0.708s,FAILED

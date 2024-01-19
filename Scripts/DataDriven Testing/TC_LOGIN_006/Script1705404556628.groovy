@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Object Repository/DataDrivenTesting/TC_LOGIN_006/P
 
 WebUI.click(findTestObject('Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password'), 
+WebUI.setText(findTestObject('Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password'), 
     password)
 
 WebUI.click(findTestObject('Object Repository/DataDrivenTesting/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))

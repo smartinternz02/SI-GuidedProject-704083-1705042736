@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,18-01-2024 18:38:25,18-01-2024 18:41:02,2m - 36.885s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,18-01-2024 18:38:38,18-01-2024 18:41:02,2m - 23.364s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,18-01-2024 18:38:38,18-01-2024 18:39:07,29.089s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,18-01-2024 18:39:07,18-01-2024 18:39:10,2.065s,PASSED
+return null,Chrome 120.0.0.0,,,18-01-2024 18:39:10,18-01-2024 18:39:10,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,18-01-2024 18:39:10,18-01-2024 18:40:47,1m - 37.626s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,18-01-2024 18:40:47,18-01-2024 18:41:02,14.468s,PASSED

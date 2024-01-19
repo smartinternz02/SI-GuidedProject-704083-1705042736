@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_QUANTITY_004" time="237.184" tests="1" failures="0" errors="0">
+   <testsuite name="TC_QUANTITY_004" tests="1" failures="0" errors="0" time="237.184" skipped="0" timestamp="18-01-2024T18:22:18" hostname="DESKTOP COMPUTER - DESKTOP-KL6BTBD" id="Test Suites/TestListeners/TC_QUANTITY_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208"/>
+         <property name="logFiles" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582495497.png, C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582540093.png, C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582574907.png"/>
+         <property name="hostName" value="DESKTOP COMPUTER - DESKTOP-KL6BTBD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="8e43fd45af2a95b02c0162af474196d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestListener/TC_QUANTITY_004" time="211.159" classname="Test Cases/TestListener/TC_QUANTITY_004" status="PASSED">
+         <system-out><![CDATA[18-01-2024T18:22:44 - [TEST_CASE][PASSED] - Test Cases/TestListener/TC_QUANTITY_004: Test Cases/TestListener/TC_QUANTITY_004
+
+18-01-2024T18:22:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+18-01-2024T18:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "SALT FOR ICE AND SNOW"): Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+18-01-2024T18:23:06 - [MESSAGE][PASSED] - Text 'SALT FOR ICE AND SNOW' is set on object 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+18-01-2024T18:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+18-01-2024T18:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+18-01-2024T18:23:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Text 'PENDRIVE' is set on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+18-01-2024T18:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "PENDRIVE"): Text 'PENDRIVE' is set on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+18-01-2024T18:23:21 - [MESSAGE][PASSED] - Text 'PENDRIVE' is set on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+18-01-2024T18:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "PENDRIVE"): Text 'PENDRIVE' is set on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+18-01-2024T18:23:23 - [MESSAGE][PASSED] - Text 'PENDRIVE' is set on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+18-01-2024T18:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+18-01-2024T18:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+18-01-2024T18:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6")): Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' is clicked on
+
+18-01-2024T18:24:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:24:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'. Try using Self-healing.
+
+18-01-2024T18:24:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = 'Type-Câ„¢ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-Câ„¢ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:24:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:24:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:24:05 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//span[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'.
+
+18-01-2024T18:24:09 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ramam/git/SI-GuidedProject-704083-1705042736/Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6_customAttributes.png
+
+18-01-2024T18:24:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' was broken. Propose an alternative one: '//span[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'.
+
+18-01-2024T18:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' is clicked on
+
+18-01-2024T18:24:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY"), "2", true): All options with value '2' are selected in object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression
+
+18-01-2024T18:24:18 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression
+
+18-01-2024T18:24:18 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: null
+
+18-01-2024T18:24:18 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a")): Unable to click on object 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_AMAZON_SEARCH_001.sampleAfterTestCase(TC_AMAZON_SEARCH_001.groovy:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' located by '//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+
+18-01-2024T18:24:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:24:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a'. Try using Self-healing.
+
+18-01-2024T18:24:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div'.
+
+18-01-2024T18:24:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/span/a/div'.
+
+18-01-2024T18:24:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div'.
+
+18-01-2024T18:24:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/span/a/div'.
+
+18-01-2024T18:24:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("search")/div[@class="s-desktop-width-max s-desktop-content s-wide-grid-style-t1 s-opposite-dir s-wide-grid-style sg-row"]/div[@class="sg-col-20-of-24 s-matching-dir sg-col-16-of-20 sg-col sg-col-8-of-12 sg-col-12-of-16"]/div[@class="sg-col-inner"]/span[@class="rush-component s-latency-cf-section"]/div[@class="s-main-slot s-result-list s-search-results sg-row"]/div[@class="sg-col-20-of-24 s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 AdHolder sg-col s-widget-spacing-small sg-col-12-of-16"]/div[@class="sg-col-inner"]/div[@class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_1"]/div[@class="rush-component"]/div[@class="rush-component s-featured-result-item"]/span[@class="a-declarative"]/div[@class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-v1sbs6puudm3ke1y3ir67nn0k6e s-latency-cf-section puis-card-border"]/div[@class="a-section"]/div[@class="puisg-row"]/div[@class="puisg-col puisg-col-4-of-12 puisg-col-4-of-16 puisg-col-4-of-20 puisg-col-4-of-24 puis-list-col-left"]/div[@class="puisg-col-inner"]/div[@class="s-product-image-container aok-relative s-text-center s-image-overlay-grey puis-image-overlay-grey s-padding-left-small s-padding-right-small puis-flex-expand-height puis puis-v1sbs6puudm3ke1y3ir67nn0k6e"]/div[@class="aok-relative"]/span[@class="rush-component"]/a[@class="a-link-normal s-no-outline"]/div[@class="a-section aok-relative s-image-fixed-height"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:24:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.a-section.aok-relative.s-image-fixed-height'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:24:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_AMAZON_SEARCH_001.sampleAfterTestCase(TC_AMAZON_SEARCH_001.groovy:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CART_005/Page_Amazon.com  SALT FOR ICE AND SNOW/div_Price and other details may vary based _5f162a' located by '//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/div/div/div[2]/div/span/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582495497.png]]
+
+18-01-2024T18:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673")): Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+18-01-2024T18:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673' is clicked on
+
+18-01-2024T18:24:58 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: null
+
+18-01-2024T18:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+18-01-2024T18:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+18-01-2024T18:25:02 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6")): Unable to click on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_QUANTITY_004.sampleAfterTestCase(TC_QUANTITY_004.groovy:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' located by '//div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+
+18-01-2024T18:25:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:25:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'. Try using Self-healing.
+
+18-01-2024T18:25:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = 'Type-Câ„¢ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-Câ„¢ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:25:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:25:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:25:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:25:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'.
+
+18-01-2024T18:25:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:25:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span'.
+
+18-01-2024T18:25:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'.
+
+18-01-2024T18:25:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue' or . = 'Type-C™ USB Flash Drive, 256GB, Transfers 4GB Files in 11 Secs w/Up to 400MB/s 3.13 Read Speeds, Compatible w/USB 3.0/2.0, Waterproof, 2022,Blue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:25:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:25:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_QUANTITY_004.sampleAfterTestCase(TC_QUANTITY_004.groovy:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6' located by '//div[@id='search']/div/div/div/span/div/div[9]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582540093.png]]
+
+18-01-2024T18:25:40 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY"), "2", true): Unable to select option by value '2' of object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC_QUANTITY_004.sampleAfterTestCase(TC_QUANTITY_004.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY' located by '//select[@id='quantity']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+
+18-01-2024T18:26:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='quantity']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:26:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'. Try using Self-healing.
+
+18-01-2024T18:26:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@id='quantity']'.
+
+18-01-2024T18:26:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='selectQuantity']/span/div/div/span/select'.
+
+18-01-2024T18:26:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span/select'.
+
+18-01-2024T18:26:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@name = 'quantity' and @id = 'quantity' and (text() = '     1        2        3        4        5             ' or . = '     1        2        3        4        5             ')]'.
+
+18-01-2024T18:26:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'quantity' and @id = 'quantity' and (text() = '     1        2        3        4        5             ' or . = '     1        2        3        4        5             ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:26:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #quantity'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T18:26:15 - [MESSAGE][FAILED] - Unable to select option by value '2' of object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC_QUANTITY_004.sampleAfterTestCase(TC_QUANTITY_004.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705582328604.run(TempTestSuite1705582328604.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY' located by '//select[@id='quantity']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|C:\\Users\\ramam\\git\\SI-GuidedProject-704083-1705042736\\Reports\\20240118_182152\\TestListeners\\TC_QUANTITY_004\\20240118_182208\\1705582574907.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-01-2024T18:22:18 - [TEST_SUITE][PASSED] - TC_QUANTITY_004: Test Cases/TestListener/TC_QUANTITY_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

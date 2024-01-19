@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class TC_NEW_USER_003 {
-	
+
 	@Keyword
 	def new_user() {
 		WebUI.openBrowser('')

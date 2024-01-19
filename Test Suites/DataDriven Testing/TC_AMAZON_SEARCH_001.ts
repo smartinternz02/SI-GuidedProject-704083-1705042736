@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC_LOGIN_006</name>
+   <name>TC_AMAZON_SEARCH_001</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,33 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4bd2d8e7-6726-442c-9d65-86883d0a50f3</testSuiteGuid>
+   <testSuiteGuid>f7104571-51af-4777-a61b-e6914db64ce5</testSuiteGuid>
    <testCaseLink>
-      <guid>f51aaec0-ebdc-4693-94d6-2062ee08d072</guid>
+      <guid>3e630b0b-0cc5-4d2e-a844-718d366db5ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DataDriven Testing/TC_LOGIN_006</testCaseId>
+      <testCaseId>Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f65bf5e0-8b4a-45a1-84f5-7035f8d7c4dc</id>
+         <id>c96b6444-545c-41cf-b3e4-88e7766997b5</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Datadriven/login_credentials</testDataId>
+         <testDataId>Data Files/Datadriven/TC_AMAZON_SEARCH_001</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ac52a8e6-8361-442a-8947-21bf098ef997</variableId>
+         <testDataLinkId>c96b6444-545c-41cf-b3e4-88e7766997b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>76b0d414-2e02-4fad-96f8-e531f096493b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>85c4bfc9-532c-44fb-9477-a66e9c86576a</variableId>
+         <testDataLinkId>c96b6444-545c-41cf-b3e4-88e7766997b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item</value>
+         <variableId>a2449a2f-6fea-4e99-a7b4-da94cc5fa6e1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
