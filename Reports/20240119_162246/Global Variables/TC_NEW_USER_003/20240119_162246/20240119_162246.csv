@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 16:22:52,19-01-2024 16:23:48,56.833s,PASSED
+,,,,,,,
+Test Cases/Global Variables/TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 16:22:52,19-01-2024 16:23:48,56.574s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 16:22:52,19-01-2024 16:22:53,0.982s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 16:22:53,19-01-2024 16:22:53,0.156s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 16:22:53,19-01-2024 16:22:55,1.919s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 16:22:55,19-01-2024 16:22:58,3.183s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in""))",Chrome 120.0.0.0,,,19-01-2024 16:22:58,19-01-2024 16:23:07,8.814s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,19-01-2024 16:23:07,19-01-2024 16:23:09,1.936s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName""), name)",Chrome 120.0.0.0,,,19-01-2024 16:23:09,19-01-2024 16:23:11,1.507s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email""), email)",Chrome 120.0.0.0,,,19-01-2024 16:23:11,19-01-2024 16:23:11,0.885s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Password_password""), password)",Chrome 120.0.0.0,,,19-01-2024 16:23:11,19-01-2024 16:23:12,0.834s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck""), reenterpassword)",Chrome 120.0.0.0,,,19-01-2024 16:23:12,19-01-2024 16:23:13,0.951s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue""))",Chrome 120.0.0.0,,,19-01-2024 16:23:13,19-01-2024 16:23:15,1.621s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code""), otp)",Chrome 120.0.0.0,,,19-01-2024 16:23:15,19-01-2024 16:23:46,31.602s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 16:23:46,19-01-2024 16:23:48,1.364s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 16:23:48,19-01-2024 16:23:48,0.264s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 16:23:48,19-01-2024 16:23:48,0.129s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 16:23:48,19-01-2024 16:23:48,0.187s,FAILED

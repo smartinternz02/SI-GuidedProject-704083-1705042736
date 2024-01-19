@@ -5,30 +5,13 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c3786e6c-d517-4f13-a2c4-95f3802eab56</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ac52a8e6-8361-442a-8947-21bf098ef997</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>85c4bfc9-532c-44fb-9477-a66e9c86576a</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ac52a8e6-8361-442a-8947-21bf098ef997</id>
-      <masked>false</masked>
-      <name>email</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>85c4bfc9-532c-44fb-9477-a66e9c86576a</id>
-      <masked>false</masked>
-      <name>password</name>
-   </variable>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cdaaa287-83bd-44a8-835a-74380575f9a8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Datadriven/TC_LOGIN_006</testDataId>
+   </testDataLinks>
 </TestCaseEntity>

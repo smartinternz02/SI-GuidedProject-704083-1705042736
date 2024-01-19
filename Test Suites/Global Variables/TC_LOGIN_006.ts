@@ -5,26 +5,17 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4bd2d8e7-6726-442c-9d65-86883d0a50f3</testSuiteGuid>
+   <testSuiteGuid>1350ad74-1158-4925-9c5b-a83309072b0a</testSuiteGuid>
    <testCaseLink>
-      <guid>f51aaec0-ebdc-4693-94d6-2062ee08d072</guid>
+      <guid>cd7a01db-5177-4424-8c47-6ef0b5907a0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DataDriven Testing/TC_LOGIN_006</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>02e503f9-79cb-405c-8e42-acf54f1fd3a9</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datadriven/TC_LOGIN_006</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Global Variables/TC_LOGIN_006</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC_LOGIN_006</name>
+   <name>TC_NEW_USER_003</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4bd2d8e7-6726-442c-9d65-86883d0a50f3</testSuiteGuid>
+   <testSuiteGuid>6f4d942c-d2a7-418b-a6f0-89dc55e3f922</testSuiteGuid>
    <testCaseLink>
-      <guid>f51aaec0-ebdc-4693-94d6-2062ee08d072</guid>
+      <guid>57bbc13f-7688-43c9-9fca-d2aa8c20ed42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DataDriven Testing/TC_LOGIN_006</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>02e503f9-79cb-405c-8e42-acf54f1fd3a9</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datadriven/TC_LOGIN_006</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Global Variables/TC_NEW_USER_003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
