@@ -5,20 +5,20 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>f7104571-51af-4777-a61b-e6914db64ce5</testSuiteGuid>
+   <testSuiteGuid>a2bbe6ee-25dc-4f0d-92b0-aebb312f125b</testSuiteGuid>
    <testCaseLink>
-      <guid>3e630b0b-0cc5-4d2e-a844-718d366db5ca</guid>
+      <guid>282f88c2-9eca-43b8-84a7-830c8b483942</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c96b6444-545c-41cf-b3e4-88e7766997b5</id>
+         <id>539bc93b-3a83-459c-a6a7-38eb8d0c8d84</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,16 +27,16 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>c96b6444-545c-41cf-b3e4-88e7766997b5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>category</value>
-         <variableId>76b0d414-2e02-4fad-96f8-e531f096493b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c96b6444-545c-41cf-b3e4-88e7766997b5</testDataLinkId>
+         <testDataLinkId>539bc93b-3a83-459c-a6a7-38eb8d0c8d84</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>item</value>
-         <variableId>a2449a2f-6fea-4e99-a7b4-da94cc5fa6e1</variableId>
+         <variableId>083ccbe0-822e-4ea8-b533-ae18ffed8347</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>539bc93b-3a83-459c-a6a7-38eb8d0c8d84</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>efaaa8b3-06b7-49b7-a72a-082bf1de3015</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

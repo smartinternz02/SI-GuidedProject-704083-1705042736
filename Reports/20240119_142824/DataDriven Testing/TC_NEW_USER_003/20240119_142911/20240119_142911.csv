@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 14:33:31,19-01-2024 14:34:23,52.073s,PASSED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 14:33:31,19-01-2024 14:34:23,51.775s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:33:31,19-01-2024 14:33:31,0.594s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:33:31,19-01-2024 14:33:32,0.075s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 14:33:32,19-01-2024 14:33:34,1.874s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 14:33:34,19-01-2024 14:33:37,3.277s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,19-01-2024 14:33:37,19-01-2024 14:33:51,14.588s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,19-01-2024 14:33:51,19-01-2024 14:33:53,2.085s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName""), name)",Chrome 120.0.0.0,,,19-01-2024 14:33:53,19-01-2024 14:33:55,1.499s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email""), email)",Chrome 120.0.0.0,,,19-01-2024 14:33:55,19-01-2024 14:33:56,0.817s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Registration/input_Password_password""), password)",Chrome 120.0.0.0,,,19-01-2024 14:33:56,19-01-2024 14:33:57,0.740s,PASSED
+"setText(findTestObject(""DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck""), reenterpassword)",Chrome 120.0.0.0,,,19-01-2024 14:33:57,19-01-2024 14:33:57,0.835s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue""))",Chrome 120.0.0.0,,,19-01-2024 14:33:57,19-01-2024 14:33:59,1.500s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code""), otp)",Chrome 120.0.0.0,,,19-01-2024 14:33:59,19-01-2024 14:34:21,21.649s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-_1cda9a""))",Chrome 120.0.0.0,,,19-01-2024 14:34:21,19-01-2024 14:34:22,1.547s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 14:34:22,19-01-2024 14:34:22,0.306s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:34:22,19-01-2024 14:34:22,0.091s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:34:22,19-01-2024 14:34:23,0.136s,FAILED

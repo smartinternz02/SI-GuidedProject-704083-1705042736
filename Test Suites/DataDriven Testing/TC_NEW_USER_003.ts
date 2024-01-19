@@ -27,33 +27,33 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c77bffca-ddf8-4fd5-a19b-94a22a9707b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
          <variableId>213caee3-6c03-477f-9d3a-c1f32254081f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c77bffca-ddf8-4fd5-a19b-94a22a9707b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>81904fd6-a511-4b72-b212-070560bde48f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c77bffca-ddf8-4fd5-a19b-94a22a9707b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>a1b90339-c0c7-4a13-bf31-c9da2d19681a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c77bffca-ddf8-4fd5-a19b-94a22a9707b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>reenterpassword</value>
          <variableId>974a9bc8-2dcd-48d7-8a73-fc5b15415257</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c77bffca-ddf8-4fd5-a19b-94a22a9707b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>otp</value>
          <variableId>e7b0a249-94f5-4217-8ba6-d056d2a56b66</variableId>
       </variableLink>
    </testCaseLink>

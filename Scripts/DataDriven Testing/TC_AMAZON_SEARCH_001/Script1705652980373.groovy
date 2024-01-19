@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('www.amazon.com')
+WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.selectOptionByLabel(findTestObject('DataDrivenTesting/Page_Amazon.com. Spend less. Smile more/categoryelement'), category, 
-    false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    category, false)
 
-WebUI.setText(findTestObject('DataDrivenTesting/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+WebUI.setText(findTestObject('Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
     item)
 
-WebUI.click(findTestObject('DataDrivenTesting/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
 WebUI.closeBrowser()
 

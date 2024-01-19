@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/DataDriven Testing/TC_LOGIN_006","testCaseId":"Test Cases/DataDriven Testing/TC_LOGIN_006","iterationVariableName":"","bindedValues":{"password":"\u0027123456\u0027","email":"\u0027rama123@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DataDriven Testing/TC_LOGIN_006","testCaseId":"Test Cases/DataDriven Testing/TC_LOGIN_006","iterationVariableName":"","bindedValues":{"password":"\u0027789563\u0027","email":"\u0027john@yahoo.com\u0027"}}
+{"testCaseName":"Test Cases/DataDriven Testing/TC_LOGIN_006","testCaseId":"Test Cases/DataDriven Testing/TC_LOGIN_006","iterationVariableName":"","bindedValues":{"password":"\u002768492\u0027","email":"\u0027hello@yahoo.com\u0027"}}
+{"testCaseName":"Test Cases/DataDriven Testing/TC_LOGIN_006","testCaseId":"Test Cases/DataDriven Testing/TC_LOGIN_006","iterationVariableName":"","bindedValues":{"password":"\u0027789456\u0027","email":"\u0027chetankumarpulipati4@gmail.com\u0027"}}

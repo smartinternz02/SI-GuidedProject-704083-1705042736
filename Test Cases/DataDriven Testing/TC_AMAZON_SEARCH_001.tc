@@ -4,31 +4,31 @@
    <name>TC_AMAZON_SEARCH_001</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3cebe172-81ad-424d-aac5-099c2d764594</testCaseGuid>
+   <testCaseGuid>32b01691-ed89-42fa-9f97-d2050548ac35</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>76b0d414-2e02-4fad-96f8-e531f096493b</variableId>
+      <variableId>083ccbe0-822e-4ea8-b533-ae18ffed8347</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a2449a2f-6fea-4e99-a7b4-da94cc5fa6e1</variableId>
+      <variableId>efaaa8b3-06b7-49b7-a72a-082bf1de3015</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>76b0d414-2e02-4fad-96f8-e531f096493b</id>
+      <id>083ccbe0-822e-4ea8-b533-ae18ffed8347</id>
       <masked>false</masked>
-      <name>category</name>
+      <name>item</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a2449a2f-6fea-4e99-a7b4-da94cc5fa6e1</id>
+      <id>efaaa8b3-06b7-49b7-a72a-082bf1de3015</id>
       <masked>false</masked>
-      <name>item</name>
+      <name>category</name>
    </variable>
 </TestCaseEntity>

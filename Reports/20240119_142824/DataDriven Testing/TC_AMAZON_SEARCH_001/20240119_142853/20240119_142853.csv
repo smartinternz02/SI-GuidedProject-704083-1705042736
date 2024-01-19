@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 14:29:18,19-01-2024 14:31:41,2m - 23.039s,PASSED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 14:29:18,19-01-2024 14:30:00,41.186s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:29:18,19-01-2024 14:29:19,0.883s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:29:19,19-01-2024 14:29:19,0.143s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 14:29:20,19-01-2024 14:29:34,14.057s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 14:29:34,19-01-2024 14:29:35,1.271s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,19-01-2024 14:29:35,19-01-2024 14:29:49,13.579s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,19-01-2024 14:29:49,19-01-2024 14:29:50,1.866s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 14:29:50,19-01-2024 14:29:58,7.312s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 14:29:58,19-01-2024 14:29:59,1.353s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:29:59,19-01-2024 14:29:59,0.173s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:29:59,19-01-2024 14:30:00,0.267s,FAILED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 14:30:00,19-01-2024 14:30:29,29.716s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:00,19-01-2024 14:30:00,0.109s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:00,19-01-2024 14:30:00,0.047s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 14:30:00,19-01-2024 14:30:02,2.638s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 14:30:02,19-01-2024 14:30:07,4.225s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,19-01-2024 14:30:07,19-01-2024 14:30:19,12.801s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,19-01-2024 14:30:19,19-01-2024 14:30:21,1.236s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 14:30:21,19-01-2024 14:30:29,7.888s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 14:30:29,19-01-2024 14:30:29,0.505s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:29,19-01-2024 14:30:29,0.095s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:29,19-01-2024 14:30:29,0.137s,FAILED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 14:30:29,19-01-2024 14:31:08,38.115s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:29,19-01-2024 14:30:30,0.100s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:30:30,19-01-2024 14:30:30,0.047s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 14:30:30,19-01-2024 14:30:31,1.419s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 14:30:31,19-01-2024 14:30:35,3.827s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,19-01-2024 14:30:35,19-01-2024 14:30:57,22.625s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,19-01-2024 14:30:57,19-01-2024 14:30:59,1.516s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 14:30:59,19-01-2024 14:31:07,7.961s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 14:31:07,19-01-2024 14:31:07,0.377s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:07,19-01-2024 14:31:07,0.076s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:07,19-01-2024 14:31:08,0.131s,FAILED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 14:31:08,19-01-2024 14:31:41,33.320s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:08,19-01-2024 14:31:08,0.084s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:08,19-01-2024 14:31:08,0.034s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 14:31:08,19-01-2024 14:31:09,1.153s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 14:31:09,19-01-2024 14:31:15,5.886s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,19-01-2024 14:31:15,19-01-2024 14:31:30,15.421s,PASSED
+"setText(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,19-01-2024 14:31:30,19-01-2024 14:31:32,1.431s,PASSED
+"click(findTestObject(""Object Repository/DataDrivenTesting/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 14:31:32,19-01-2024 14:31:40,8.624s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 14:31:40,19-01-2024 14:31:41,0.486s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:41,19-01-2024 14:31:41,0.082s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 14:31:41,19-01-2024 14:31:41,0.101s,FAILED

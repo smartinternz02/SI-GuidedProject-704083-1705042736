@@ -36,35 +36,35 @@
       <variableId>e7b0a249-94f5-4217-8ba6-d056d2a56b66</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'chetan\r\n'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>213caee3-6c03-477f-9d3a-c1f32254081f</id>
       <masked>false</masked>
       <name>name</name>
    </variable>
    <variable>
-      <defaultValue>'websterw116@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>81904fd6-a511-4b72-b212-070560bde48f</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'Amazon@123'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a1b90339-c0c7-4a13-bf31-c9da2d19681a</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'Amazon@123'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>974a9bc8-2dcd-48d7-8a73-fc5b15415257</id>
       <masked>false</masked>
       <name>reenterpassword</name>
    </variable>
    <variable>
-      <defaultValue>'5642'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e7b0a249-94f5-4217-8ba6-d056d2a56b66</id>
       <masked>false</masked>
