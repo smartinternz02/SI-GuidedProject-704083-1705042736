@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_QUANTITY_004,Chrome 120.0.0.0,,,19-01-2024 18:52:17,19-01-2024 18:52:49,31.867s,PASSED
+,,,,,,,
+Test Cases/Manual Mode/TC_QUANTITY_004,Chrome 120.0.0.0,Validate amazon application for quantity selection,#QUANTITY_SELECTION,19-01-2024 18:52:17,19-01-2024 18:52:49,31.568s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 18:52:17,19-01-2024 18:52:18,1.040s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 18:52:18,19-01-2024 18:52:18,0.135s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 18:52:18,19-01-2024 18:52:21,2.117s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 18:52:21,19-01-2024 18:52:24,3.812s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""APPLE IPHONE"")",Chrome 120.0.0.0,,,19-01-2024 18:52:24,19-01-2024 18:52:33,9.018s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 18:52:33,19-01-2024 18:52:37,3.698s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com  APPLE IPHONE/span_iPhone 15 Plus Clear Case with MagSafe""))",Chrome 120.0.0.0,,,19-01-2024 18:52:37,19-01-2024 18:52:43,5.892s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/span_Quantity""))",Chrome 120.0.0.0,,,19-01-2024 18:52:43,19-01-2024 18:52:47,4.195s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2""))",Chrome 120.0.0.0,,,19-01-2024 18:52:47,19-01-2024 18:52:48,0.581s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 18:52:48,19-01-2024 18:52:48,0.375s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 18:52:48,19-01-2024 18:52:48,0.292s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 18:52:48,19-01-2024 18:52:49,0.239s,FAILED

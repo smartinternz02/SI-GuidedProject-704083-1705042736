@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_NEW_USER_003,Edge Chromium 120,,,19-01-2024 19:22:09,19-01-2024 19:23:16,1m - 6.636s,FAILED
+,,,,,,,
+Test Cases/Global Variables/TC_NEW_USER_003,Edge Chromium 120,,,19-01-2024 19:22:09,19-01-2024 19:23:16,1m - 6.425s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-01-2024 19:22:09,19-01-2024 19:22:10,0.616s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-01-2024 19:22:10,19-01-2024 19:22:10,0.073s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,19-01-2024 19:22:10,19-01-2024 19:22:13,2.559s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,19-01-2024 19:22:13,19-01-2024 19:22:20,7.128s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in""))",Edge Chromium 120,,,19-01-2024 19:22:20,19-01-2024 19:22:23,3.808s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account""))",Edge Chromium 120,,,19-01-2024 19:22:23,19-01-2024 19:22:25,1.745s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName""), name)",Edge Chromium 120,,,19-01-2024 19:22:25,19-01-2024 19:22:27,1.286s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email""), email)",Edge Chromium 120,,,19-01-2024 19:22:27,19-01-2024 19:22:27,0.769s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Password_password""), password)",Edge Chromium 120,,,19-01-2024 19:22:27,19-01-2024 19:22:28,0.710s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck""), reenterpassword)",Edge Chromium 120,,,19-01-2024 19:22:28,19-01-2024 19:22:29,1.005s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue""))",Edge Chromium 120,,,19-01-2024 19:22:29,19-01-2024 19:22:31,1.839s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code""), otp)",Edge Chromium 120,,,19-01-2024 19:22:31,19-01-2024 19:23:07,36.038s,FAILED
+"click(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input""))",Edge Chromium 120,,,19-01-2024 19:23:07,19-01-2024 19:23:15,8.004s,PASSED
+closeBrowser(),Edge Chromium 120,,,19-01-2024 19:23:15,19-01-2024 19:23:15,0.465s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-01-2024 19:23:15,19-01-2024 19:23:15,0.078s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-01-2024 19:23:15,19-01-2024 19:23:16,0.131s,FAILED

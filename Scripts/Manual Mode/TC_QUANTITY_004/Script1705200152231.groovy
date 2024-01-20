@@ -21,21 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/input_field-keywords'), 'GPBJAG')
-
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com/button_Continue shopping'))
-
 WebUI.setText(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'PENDRIVE')
+    'APPLE IPHONE')
 
 WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com  PENDRIVE/span_Type-C USB Flash Drive, 256GB, Transfe_3f34d6'))
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com  APPLE IPHONE/span_iPhone 15 Plus Clear Case with MagSafe'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY'), 
-    '2', true)
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/span_Quantity'))
 
-WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart'))
+WebUI.click(findTestObject('Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2'))
 
 WebUI.closeBrowser()
 

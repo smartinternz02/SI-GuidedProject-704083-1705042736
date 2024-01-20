@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_LOGIN_006,Chrome 120.0.0.0,,,19-01-2024 19:09:03,19-01-2024 19:15:03,6m - 0.355s,FAILED
+,,,,,,,
+Test Cases/Scripting Mode/TC_LOGIN_006,Chrome 120.0.0.0,,,19-01-2024 19:09:03,19-01-2024 19:15:03,6m - 0.152s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 19:09:03,19-01-2024 19:09:03,0.577s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 19:09:03,19-01-2024 19:09:04,0.070s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 19:09:04,19-01-2024 19:09:05,1.816s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 19:09:05,19-01-2024 19:09:10,4.135s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,19-01-2024 19:09:10,19-01-2024 19:09:45,35.045s,FAILED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""rama123@gmail.com"")",Chrome 120.0.0.0,,,19-01-2024 19:09:45,19-01-2024 19:10:48,1m - 3.032s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 120.0.0.0,,,19-01-2024 19:10:48,19-01-2024 19:11:24,36.057s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), ""zWBjhi+vD9h9XMIcPLPL/A=="")",Chrome 120.0.0.0,,,19-01-2024 19:11:24,19-01-2024 19:11:56,32.445s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,19-01-2024 19:11:56,19-01-2024 19:12:32,35.837s,FAILED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""johnaaa@yahoo.com"")",Chrome 120.0.0.0,,,19-01-2024 19:12:32,19-01-2024 19:13:35,1m - 3.047s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 120.0.0.0,,,19-01-2024 19:13:35,19-01-2024 19:14:11,35.553s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), ""zWBjhi+vD9h9XMIcPLPL/A=="")",Chrome 120.0.0.0,,,19-01-2024 19:14:11,19-01-2024 19:14:42,31.691s,FAILED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,19-01-2024 19:14:42,19-01-2024 19:15:02,19.672s,FAILED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""hello@pin.com"")",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.049s,FAILED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.049s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), ""zWBjhi+vD9h9XMIcPLPL/A=="")",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.056s,FAILED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.050s,FAILED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""chetankumarpulipati4@gmail.com"")",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.048s,FAILED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.058s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), ""zWBjhi+vD9h9XMIcPLPL/A=="")",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.062s,FAILED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:02,0.064s,FAILED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 19:15:02,19-01-2024 19:15:03,0.403s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 19:15:03,19-01-2024 19:15:03,0.072s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 19:15:03,19-01-2024 19:15:03,0.118s,FAILED

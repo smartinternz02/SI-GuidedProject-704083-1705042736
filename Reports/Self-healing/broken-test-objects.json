@@ -229,6 +229,146 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/DataDrivenTesting/TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in",
+      "brokenLocator": "//span[@id\u003d\u0027nav-link-accountList-nav-line-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027nav-link-accountList-nav-line-1\u0027 and (text() \u003d \u0027Hello, sign in\u0027 or . \u003d \u0027Hello, sign in\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input",
+      "brokenLocator": "//input[@type\u003d\u0027submit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027cvf-submit-otp-button\u0027]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart",
+      "brokenLocator": "//input[@id\u003d\u0027add-to-cart-button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/input_submit.add-to-cart_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code",
+      "brokenLocator": "//input[@id\u003d\u0027cvf-input-code\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account",
+      "brokenLocator": "//a[@id\u003d\u0027createAccountSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password_check\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/span_Quantity",
+      "brokenLocator": "//span[@id\u003d\u0027a-autoid-0-announce\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/span_Quantity_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2",
+      "brokenLocator": "//a[@id\u003d\u0027quantity_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u00272\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2_link.png"
     }
   ]
 }

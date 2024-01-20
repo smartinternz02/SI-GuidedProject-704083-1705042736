@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1ef4f1ff-e058-4d07-9807-cb7c5f7486b0</webElementGuid>
+      <webElementGuid>b148f977-850f-443b-bda3-953a546676ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>d1eb81d5-358d-4d09-b4ab-7eea563cb606</webElementGuid>
+      <webElementGuid>8b6a4ffd-da3d-41f4-9dcd-214076f0755b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button-text</value>
-      <webElementGuid>11538b98-e68f-42d7-a47e-57947b4f4037</webElementGuid>
+      <webElementGuid>b72734fd-0171-41bc-8378-26d92139adb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue shopping</value>
-      <webElementGuid>bd7607c4-45fa-41a8-8039-a16fc9d8e18e</webElementGuid>
+      <webElementGuid>bff0cf94-58a7-466e-944a-9011ececd891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;a-no-js&quot;]/body[1]/div[@class=&quot;a-container a-padding-double-large&quot;]/div[@class=&quot;a-row a-spacing-double-large&quot;]/div[@class=&quot;a-section&quot;]/div[@class=&quot;a-box a-color-offset-background&quot;]/div[@class=&quot;a-box-inner a-padding-extra-large&quot;]/form[1]/div[@class=&quot;a-section a-spacing-extra-large&quot;]/div[@class=&quot;a-row&quot;]/span[@class=&quot;a-button a-button-primary a-span12&quot;]/span[@class=&quot;a-button-inner&quot;]/button[@class=&quot;a-button-text&quot;]</value>
-      <webElementGuid>7c687c73-0792-454a-b184-5cef7b7a6c82</webElementGuid>
+      <webElementGuid>4b2b71a8-e231-47c2-8ce1-fef35d4ee6ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>53302429-1f56-429f-ba8a-225870434964</webElementGuid>
+      <webElementGuid>f37cba8f-f06d-4869-8439-1e04766fc3de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>f957dec5-5350-4333-bd74-c39a807792af</webElementGuid>
+      <webElementGuid>428bab38-e385-42d8-bce0-7b9750e7f441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Continue shopping' or . = 'Continue shopping')]</value>
-      <webElementGuid>0cb6181f-5524-4e33-a017-b3014630e45f</webElementGuid>
+      <webElementGuid>9f101e71-5bba-471d-98fc-079bf2273eb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

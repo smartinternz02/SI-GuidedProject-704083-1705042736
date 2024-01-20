@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_185545/Test Modes/Manual Mode/TC_NEW_USER_003/20240119_185557/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_185545/Test Modes/Manual Mode/TC_NEW_USER_003/20240119_185557/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password_check\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_185545/Test Modes/Manual Mode/TC_NEW_USER_003/20240119_185557/Object Repository/TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code",
+      "brokenLocator": "//input[@id\u003d\u0027cvf-input-code\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_185545/Test Modes/Manual Mode/TC_NEW_USER_003/20240119_185557/Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code_position.png"
+    }
+  ]
+}

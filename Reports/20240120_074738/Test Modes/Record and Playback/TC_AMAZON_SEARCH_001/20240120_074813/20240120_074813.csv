@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_SEARCH_001,Edge Chromium 120,,,20-01-2024 07:52:43,20-01-2024 07:53:58,1m - 14.783s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_AMAZON_SEARCH_001,Edge Chromium 120,Validate the amazon application to search an item,#AMAZON_SEARCH,20-01-2024 07:52:44,20-01-2024 07:53:58,1m - 14.568s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:52:44,20-01-2024 07:52:45,1.074s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:52:45,20-01-2024 07:52:45,0.079s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,20-01-2024 07:52:45,20-01-2024 07:52:49,4.253s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,20-01-2024 07:52:49,20-01-2024 07:53:10,20.849s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Edge Chromium 120,,,20-01-2024 07:53:10,20-01-2024 07:53:15,4.433s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""da vinci code"")",Edge Chromium 120,,,20-01-2024 07:53:15,20-01-2024 07:53:16,1.597s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:53:16,20-01-2024 07:53:22,5.651s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Edge Chromium 120,,,20-01-2024 07:53:22,20-01-2024 07:53:24,1.763s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""mobile phones"")",Edge Chromium 120,,,20-01-2024 07:53:24,20-01-2024 07:53:25,1.355s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:53:25,20-01-2024 07:53:32,7.482s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=kitchen-intl-ship"", true)",Edge Chromium 120,,,20-01-2024 07:53:32,20-01-2024 07:53:36,3.609s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""washing machine"")",Edge Chromium 120,,,20-01-2024 07:53:36,20-01-2024 07:53:37,0.756s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:53:37,20-01-2024 07:53:43,6.477s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=automotive-intl-ship"", true)",Edge Chromium 120,,,20-01-2024 07:53:43,20-01-2024 07:53:46,2.311s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""))",Edge Chromium 120,,,20-01-2024 07:53:46,20-01-2024 07:53:46,0.687s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""suv"")",Edge Chromium 120,,,20-01-2024 07:53:46,20-01-2024 07:53:47,0.737s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:53:47,20-01-2024 07:53:57,9.813s,PASSED
+closeBrowser(),Edge Chromium 120,,,20-01-2024 07:53:57,20-01-2024 07:53:58,1.144s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:53:58,20-01-2024 07:53:58,0.081s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:53:58,20-01-2024 07:53:58,0.126s,FAILED

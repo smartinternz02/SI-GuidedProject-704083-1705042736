@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_LOGIN_006,Edge Chromium 120,,,19-01-2024 19:27:02,19-01-2024 19:27:25,22.878s,PASSED
+,,,,,,,
+Test Cases/Global Variables/TC_LOGIN_006,Edge Chromium 120,,,19-01-2024 19:27:02,19-01-2024 19:27:25,22.655s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-01-2024 19:27:02,19-01-2024 19:27:03,0.738s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-01-2024 19:27:03,19-01-2024 19:27:03,0.091s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,19-01-2024 19:27:03,19-01-2024 19:27:06,3.354s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,19-01-2024 19:27:06,19-01-2024 19:27:14,8.082s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Edge Chromium 120,,,19-01-2024 19:27:14,19-01-2024 19:27:17,2.666s,PASSED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Email or mobile phone number_email""), email)",Edge Chromium 120,,,19-01-2024 19:27:17,19-01-2024 19:27:19,1.636s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Edge Chromium 120,,,19-01-2024 19:27:19,19-01-2024 19:27:22,2.741s,PASSED
+"setText(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Forgot your password_password""), password)",Edge Chromium 120,,,19-01-2024 19:27:22,19-01-2024 19:27:23,1.932s,PASSED
+"click(findTestObject(""Object Repository/TC_LOGIN_006/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Edge Chromium 120,,,19-01-2024 19:27:23,19-01-2024 19:27:24,0.410s,PASSED
+closeBrowser(),Edge Chromium 120,,,19-01-2024 19:27:24,19-01-2024 19:27:24,0.443s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-01-2024 19:27:24,19-01-2024 19:27:24,0.116s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-01-2024 19:27:24,19-01-2024 19:27:25,0.272s,FAILED

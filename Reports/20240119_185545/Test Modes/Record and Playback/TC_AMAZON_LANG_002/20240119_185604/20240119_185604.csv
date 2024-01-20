@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_LANG_002,Chrome 120.0.0.0,,,19-01-2024 19:02:11,19-01-2024 19:03:36,1m - 24.277s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_AMAZON_LANG_002,Chrome 120.0.0.0,Validate the amazon application to change language,#AMAZON_LANGUAGE,19-01-2024 19:02:11,19-01-2024 19:03:36,1m - 24.043s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 19:02:12,19-01-2024 19:02:12,0.731s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 19:02:12,19-01-2024 19:02:12,0.125s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 19:02:12,19-01-2024 19:02:15,2.276s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 19:02:15,19-01-2024 19:02:20,4.790s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_India_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 19:02:20,19-01-2024 19:02:53,33.904s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/a_EN""))",Chrome 120.0.0.0,,,19-01-2024 19:02:53,19-01-2024 19:02:59,5.771s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/span_espaol -        ES                    _191430""))",Chrome 120.0.0.0,,,19-01-2024 19:02:59,19-01-2024 19:03:01,1.872s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/input_Cancelar_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 19:03:01,19-01-2024 19:03:02,0.915s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Gasta menos. Sonre ms/span_ES""))",Chrome 120.0.0.0,,,19-01-2024 19:03:02,19-01-2024 19:03:07,4.814s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Cambiar configuracin de idioma y moneda/label_portugus -        PT                 _69c65f""))",Chrome 120.0.0.0,,,19-01-2024 19:03:07,19-01-2024 19:03:08,1.364s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Cambiar configuracin de idioma y moneda/input_Cancelar_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 19:03:08,19-01-2024 19:03:09,0.657s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/a_PT""))",Chrome 120.0.0.0,,,19-01-2024 19:03:09,19-01-2024 19:03:15,5.774s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Alterar configuraes de idioma e moeda/label_English -        EN""))",Chrome 120.0.0.0,,,19-01-2024 19:03:15,19-01-2024 19:03:17,2.049s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Alterar configuraes de idioma e moeda/input_Cancel_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 19:03:17,19-01-2024 19:03:17,0.611s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/span_EN""))",Chrome 120.0.0.0,,,19-01-2024 19:03:17,19-01-2024 19:03:22,4.434s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/label_Deutsch -        DE                  _ff571f""))",Chrome 120.0.0.0,,,19-01-2024 19:03:22,19-01-2024 19:03:23,1.100s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/input_Cancelar_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 19:03:23,19-01-2024 19:03:24,0.911s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_Suche Amazon_field-keywords""), ""KAR"")",Chrome 120.0.0.0,,,19-01-2024 19:03:24,19-01-2024 19:03:28,4.281s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_Suche Amazon_nav-search-submit-button""))",Chrome 120.0.0.0,,,19-01-2024 19:03:28,19-01-2024 19:03:34,6.368s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 19:03:34,19-01-2024 19:03:35,0.863s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 19:03:35,19-01-2024 19:03:35,0.100s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 19:03:35,19-01-2024 19:03:36,0.173s,FAILED

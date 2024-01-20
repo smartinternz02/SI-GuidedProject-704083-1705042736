@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keywords,Chrome 120.0.0.0,,,19-01-2024 17:09:28,19-01-2024 17:12:21,2m - 53.322s,PASSED
+,,,,,,,
+Test Cases/keywords/TC_AMAZON_SEARCH_001,Chrome 120.0.0.0,,,19-01-2024 17:09:28,19-01-2024 17:10:24,55.575s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:09:28,19-01-2024 17:09:29,0.733s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:09:29,19-01-2024 17:09:29,0.103s,FAILED
+com.ck.pu.TC_AMAZON_SEARCH_001.TestCase_001(),Chrome 120.0.0.0,,,19-01-2024 17:09:29,19-01-2024 17:10:23,54.287s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:10:23,19-01-2024 17:10:23,0.116s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:10:23,19-01-2024 17:10:24,0.190s,FAILED
+,,,,,,,
+Test Cases/keywords/TC_CART_005,Chrome 120.0.0.0,,,19-01-2024 17:10:24,19-01-2024 17:11:32,1m - 8.543s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:10:24,19-01-2024 17:10:24,0.090s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:10:24,19-01-2024 17:10:24,0.062s,FAILED
+com.ck.pu.TC_CART_005.cart(),Chrome 120.0.0.0,,,19-01-2024 17:10:24,19-01-2024 17:11:32,1m - 8.113s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:11:32,0.092s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:11:32,0.121s,FAILED
+,,,,,,,
+Test Cases/keywords/TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:12:21,48.803s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:11:32,0.062s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:11:32,0.044s,FAILED
+com.ck.pu.TC_NEW_USER_003.new_user(),Chrome 120.0.0.0,,,19-01-2024 17:11:32,19-01-2024 17:12:21,48.455s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:12:21,19-01-2024 17:12:21,0.071s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 17:12:21,19-01-2024 17:12:21,0.098s,FAILED

@@ -26,5 +26,17 @@
          <testDataId>Data Files/Datadriven/TC_LOGIN_006</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a0de9dc-4eb0-48f4-aff6-c2d53e85810d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a779122-00f4-441b-bac0-0461c4a04aba</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

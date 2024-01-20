@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code",
+      "brokenLocator": "//input[@id\u003d\u0027cvf-input-code\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_192600/Global Variables/TC_NEW_USER_003/20240119_192624/Object Repository/TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code_position.png"
+    }
+  ]
+}

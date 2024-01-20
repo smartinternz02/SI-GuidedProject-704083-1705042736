@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_NEW_USER_003,Edge Chromium 120,,,20-01-2024 07:48:33,20-01-2024 07:49:07,33.771s,PASSED
+,,,,,,,
+Test Cases/Manual Mode/TC_NEW_USER_003,Edge Chromium 120,Validate the amazon application for registering as a new user,#NEW_USER_REGISTRATION,20-01-2024 07:48:33,20-01-2024 07:49:07,33.500s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:48:33,20-01-2024 07:48:34,0.731s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:48:34,20-01-2024 07:48:34,0.112s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,20-01-2024 07:48:34,20-01-2024 07:48:37,3.136s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,20-01-2024 07:48:37,20-01-2024 07:48:50,12.420s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in""))",Edge Chromium 120,,,20-01-2024 07:48:50,20-01-2024 07:48:59,9.180s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account""))",Edge Chromium 120,,,20-01-2024 07:48:59,20-01-2024 07:49:01,2.275s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName""), ""chetan"")",Edge Chromium 120,,,20-01-2024 07:49:01,20-01-2024 07:49:03,1.403s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email""), ""websterw116@gmail.com"")",Edge Chromium 120,,,20-01-2024 07:49:03,20-01-2024 07:49:03,0.751s,PASSED
+"setEncryptedText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Password_password""), ""XlDD6hEp9tksKxA0fbP4Lw=="")",Edge Chromium 120,,,20-01-2024 07:49:03,20-01-2024 07:49:04,0.465s,PASSED
+"setEncryptedText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck""), ""XlDD6hEp9tksKxA0fbP4Lw=="")",Edge Chromium 120,,,20-01-2024 07:49:04,20-01-2024 07:49:04,0.619s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue""))",Edge Chromium 120,,,20-01-2024 07:49:04,20-01-2024 07:49:06,1.448s,PASSED
+closeBrowser(),Edge Chromium 120,,,20-01-2024 07:49:06,20-01-2024 07:49:06,0.533s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:49:06,20-01-2024 07:49:06,0.105s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:49:06,20-01-2024 07:49:07,0.195s,FAILED

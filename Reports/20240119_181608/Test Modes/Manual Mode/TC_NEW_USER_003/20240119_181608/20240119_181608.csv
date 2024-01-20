@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_NEW_USER_003,Chrome 120.0.0.0,,,19-01-2024 18:16:14,19-01-2024 18:17:04,50.658s,PASSED
+,,,,,,,
+Test Cases/Manual Mode/TC_NEW_USER_003,Chrome 120.0.0.0,Validate the amazon application for registering as a new user,#NEW_USER_REGISTRATION,19-01-2024 18:16:14,19-01-2024 18:17:04,50.383s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 18:16:14,19-01-2024 18:16:15,0.877s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-01-2024 18:16:15,19-01-2024 18:16:15,0.115s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-01-2024 18:16:15,19-01-2024 18:16:17,2.010s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,19-01-2024 18:16:17,19-01-2024 18:16:21,4.099s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/span_Hello, sign in""))",Chrome 120.0.0.0,,,19-01-2024 18:16:21,19-01-2024 18:16:34,12.559s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,19-01-2024 18:16:34,19-01-2024 18:16:36,2.529s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Your name_customerName""), ""chetan"")",Chrome 120.0.0.0,,,19-01-2024 18:16:36,19-01-2024 18:16:38,1.426s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_US 1_email""), ""websterw116@gmail.com"")",Chrome 120.0.0.0,,,19-01-2024 18:16:38,19-01-2024 18:16:38,0.773s,PASSED
+"setEncryptedText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Password_password""), ""XlDD6hEp9tksKxA0fbP4Lw=="")",Chrome 120.0.0.0,,,19-01-2024 18:16:38,19-01-2024 18:16:39,0.525s,PASSED
+"setEncryptedText(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Re-enter password_passwordCheck""), ""XlDD6hEp9tksKxA0fbP4Lw=="")",Chrome 120.0.0.0,,,19-01-2024 18:16:39,19-01-2024 18:16:40,0.599s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue""))",Chrome 120.0.0.0,,,19-01-2024 18:16:40,19-01-2024 18:16:41,1.739s,PASSED
+"setText(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code""), ""5642"")",Chrome 120.0.0.0,,,19-01-2024 18:16:41,19-01-2024 18:17:03,21.372s,PASSED
+"click(findTestObject(""TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input""))",Chrome 120.0.0.0,,,19-01-2024 18:17:03,19-01-2024 18:17:04,0.930s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-01-2024 18:17:04,19-01-2024 18:17:04,0.280s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 18:17:04,19-01-2024 18:17:04,0.156s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-01-2024 18:17:04,19-01-2024 18:17:04,0.225s,FAILED

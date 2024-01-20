@@ -14,4 +14,30 @@
       </iterationEntity>
       <testDataId>Data Files/Datadriven/TC_LOGIN_006</testDataId>
    </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a0de9dc-4eb0-48f4-aff6-c2d53e85810d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a779122-00f4-441b-bac0-0461c4a04aba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rama123@gmail.com'</defaultValue>
+      <description></description>
+      <id>1a0de9dc-4eb0-48f4-aff6-c2d53e85810d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>1a779122-00f4-441b-bac0-0461c4a04aba</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

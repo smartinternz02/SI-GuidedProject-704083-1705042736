@@ -36,9 +36,5 @@ WebUI.setEncryptedText(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/
 
 WebUI.click(findTestObject('TC_NEW_USER_003/Page_Amazon Registration/input_Passwords must match_continue'))
 
-WebUI.setText(findTestObject('TC_NEW_USER_003/Page_Authentication required/input_Enter OTP_code'), '5642')
-
-WebUI.click(findTestObject('TC_NEW_USER_003/Page_Authentication required/input_Please enter the verification code_a-button-input'))
-
 WebUI.closeBrowser()
 

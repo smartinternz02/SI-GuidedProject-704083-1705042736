@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_LANG_002,Edge Chromium 120,,,20-01-2024 07:51:11,20-01-2024 07:52:37,1m - 25.720s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_AMAZON_LANG_002,Edge Chromium 120,Validate the amazon application to change language,#AMAZON_LANGUAGE,20-01-2024 07:51:11,20-01-2024 07:52:37,1m - 25.539s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:51:11,20-01-2024 07:51:12,0.559s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:51:12,20-01-2024 07:51:12,0.078s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,20-01-2024 07:51:12,20-01-2024 07:51:14,2.256s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,20-01-2024 07:51:14,20-01-2024 07:51:20,5.384s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_India_a-button-input""))",Edge Chromium 120,,,20-01-2024 07:51:20,20-01-2024 07:51:22,2.082s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/a_EN""))",Edge Chromium 120,,,20-01-2024 07:51:22,20-01-2024 07:51:29,6.808s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/span_espaol -        ES                    _191430""))",Edge Chromium 120,,,20-01-2024 07:51:29,20-01-2024 07:51:31,1.898s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/input_Cancelar_a-button-input""))",Edge Chromium 120,,,20-01-2024 07:51:31,20-01-2024 07:51:31,0.940s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Gasta menos. Sonre ms/span_ES""))",Edge Chromium 120,,,20-01-2024 07:51:31,20-01-2024 07:51:37,5.345s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Cambiar configuracin de idioma y moneda/label_portugus -        PT                 _69c65f""))",Edge Chromium 120,,,20-01-2024 07:51:37,20-01-2024 07:51:38,1.230s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Cambiar configuracin de idioma y moneda/input_Cancelar_a-button-input""))",Edge Chromium 120,,,20-01-2024 07:51:38,20-01-2024 07:51:39,0.693s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/a_PT""))",Edge Chromium 120,,,20-01-2024 07:51:39,20-01-2024 07:51:43,4.637s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Alterar configuraes de idioma e moeda/label_English -        EN""))",Edge Chromium 120,,,20-01-2024 07:51:43,20-01-2024 07:51:45,1.215s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Alterar configuraes de idioma e moeda/input_Cancel_a-button-input""))",Edge Chromium 120,,,20-01-2024 07:51:45,20-01-2024 07:51:45,0.880s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/span_EN""))",Edge Chromium 120,,,20-01-2024 07:51:45,20-01-2024 07:52:19,33.848s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/label_Deutsch -        DE                  _ff571f""))",Edge Chromium 120,,,20-01-2024 07:52:19,20-01-2024 07:52:21,2.129s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Change Language  Currency Settings/input_Cancelar_a-button-input""))",Edge Chromium 120,,,20-01-2024 07:52:21,20-01-2024 07:52:22,0.491s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_Suche Amazon_field-keywords""), ""KAR"")",Edge Chromium 120,,,20-01-2024 07:52:22,20-01-2024 07:52:27,4.602s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_LANG_002/Page_Amazon.com. Spend less. Smile more/input_Suche Amazon_nav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:52:27,20-01-2024 07:52:35,8.291s,PASSED
+closeBrowser(),Edge Chromium 120,,,20-01-2024 07:52:35,20-01-2024 07:52:37,1.781s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:52:37,20-01-2024 07:52:37,0.085s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:52:37,20-01-2024 07:52:37,0.171s,FAILED

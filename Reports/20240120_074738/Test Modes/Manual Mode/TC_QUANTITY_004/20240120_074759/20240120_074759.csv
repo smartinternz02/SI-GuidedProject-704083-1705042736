@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_QUANTITY_004,Edge Chromium 120,,,20-01-2024 07:49:12,20-01-2024 07:51:07,1m - 54.671s,PASSED
+,,,,,,,
+Test Cases/Manual Mode/TC_QUANTITY_004,Edge Chromium 120,Validate amazon application for quantity selection,#QUANTITY_SELECTION,20-01-2024 07:49:12,20-01-2024 07:51:07,1m - 54.469s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:49:12,20-01-2024 07:49:13,0.748s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,20-01-2024 07:49:13,20-01-2024 07:49:13,0.109s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,20-01-2024 07:49:13,20-01-2024 07:49:16,2.559s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 120,,,20-01-2024 07:49:16,20-01-2024 07:49:23,6.768s,PASSED
+"setText(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""APPLE IPHONE"")",Edge Chromium 120,,,20-01-2024 07:49:23,20-01-2024 07:50:25,1m - 1.977s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 120,,,20-01-2024 07:50:25,20-01-2024 07:50:58,33.498s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com  APPLE IPHONE/span_iPhone 15 Plus Clear Case with MagSafe""))",Edge Chromium 120,,,20-01-2024 07:50:58,20-01-2024 07:51:03,5.298s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/span_Quantity""))",Edge Chromium 120,,,20-01-2024 07:51:03,20-01-2024 07:51:05,1.813s,PASSED
+"click(findTestObject(""Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2""))",Edge Chromium 120,,,20-01-2024 07:51:05,20-01-2024 07:51:06,0.776s,PASSED
+closeBrowser(),Edge Chromium 120,,,20-01-2024 07:51:06,20-01-2024 07:51:06,0.444s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:51:06,20-01-2024 07:51:07,0.127s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,20-01-2024 07:51:07,20-01-2024 07:51:07,0.198s,FAILED
