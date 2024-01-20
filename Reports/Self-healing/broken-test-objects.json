@@ -369,6 +369,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_QUANTITY_004/Page_Amazon.com Apple iPhone 15 Plus Clear _ca27b3/a_2_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027twotabsearchtextbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027nav-search-bar-form\u0027]/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords_idRelative.png"
     }
   ]
 }

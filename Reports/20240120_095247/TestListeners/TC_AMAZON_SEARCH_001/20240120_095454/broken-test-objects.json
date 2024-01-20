@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027twotabsearchtextbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027nav-search-bar-form\u0027]/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240120_095247/TestListeners/TC_AMAZON_SEARCH_001/20240120_095454/Object Repository/TC_CART_005/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673",
+      "brokenLocator": "//input[@id\u003d\u0027add-to-cart-button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240120_095247/TestListeners/TC_AMAZON_SEARCH_001/20240120_095454/Object Repository/TC_CART_005/Page_Amazon.com Steve Spangler Science-8555_418843/input_Shipping cost, delivery date, and ord_223673_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240120_095247/TestListeners/TC_AMAZON_SEARCH_001/20240120_095454/Object Repository/TC_QUANTITY_004/Page_Amazon.com SAMSUNG Type-C USB Flash Dr_c95e17/select_QTY_position.png"
+    }
+  ]
+}
