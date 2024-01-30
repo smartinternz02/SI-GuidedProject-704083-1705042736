@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>03ac6220-ac2e-45c2-a00b-7173bd6dd905</dataFileGUID>
-   <dataSourceUrl>C:\Users\ramam\Desktop\Carry\Software Automation Testing\TC_AMAZON_SEARCH.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\cheta\Desktop\Software Automation Testing\TC_AMAZON_SEARCH_001.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
