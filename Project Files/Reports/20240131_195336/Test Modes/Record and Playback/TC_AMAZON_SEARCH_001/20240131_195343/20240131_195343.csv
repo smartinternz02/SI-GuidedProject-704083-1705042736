@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_AMAZON_SEARCH_001,Chrome 121.0.0.0,,,31-01-2024 19:53:47,31-01-2024 19:54:51,1m - 3.411s,PASSED
+,,,,,,,
+Test Cases/Record and Playback/TC_AMAZON_SEARCH_001,Chrome 121.0.0.0,Validate the amazon application to search an item,#AMAZON_SEARCH,31-01-2024 19:53:48,31-01-2024 19:54:51,1m - 3.186s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:53:48,31-01-2024 19:53:48,0.694s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:53:48,31-01-2024 19:53:48,0.090s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 19:53:49,31-01-2024 19:53:51,2.908s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 19:53:51,31-01-2024 19:53:54,2.185s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 19:53:54,31-01-2024 19:54:06,12.452s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""da vinci code"")",Chrome 121.0.0.0,,,31-01-2024 19:54:06,31-01-2024 19:54:08,2.087s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 19:54:08,31-01-2024 19:54:15,7.279s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 19:54:15,31-01-2024 19:54:17,1.806s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""mobile phones"")",Chrome 121.0.0.0,,,31-01-2024 19:54:17,31-01-2024 19:54:19,2.120s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 19:54:19,31-01-2024 19:54:28,8.472s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=kitchen-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 19:54:28,31-01-2024 19:54:32,4.071s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""washing machine"")",Chrome 121.0.0.0,,,31-01-2024 19:54:32,31-01-2024 19:54:34,1.690s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 19:54:34,31-01-2024 19:54:39,5.489s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=automotive-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 19:54:39,31-01-2024 19:54:43,3.523s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""))",Chrome 121.0.0.0,,,31-01-2024 19:54:43,31-01-2024 19:54:43,0.812s,PASSED
+"setText(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""suv"")",Chrome 121.0.0.0,,,31-01-2024 19:54:43,31-01-2024 19:54:44,0.664s,PASSED
+"click(findTestObject(""Object Repository/TC_AMAZON_SEARCH_001/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 19:54:44,31-01-2024 19:54:50,6.144s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 19:54:50,31-01-2024 19:54:51,0.352s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:54:51,31-01-2024 19:54:51,0.075s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:54:51,31-01-2024 19:54:51,0.117s,FAILED
